@@ -23,7 +23,7 @@
     <link rel="icon" type="image/x-icon" href="assets/Images/favicon-brick-by-brick.png" />
   </head>
   <body>
-    <header loading="lazy">
+    <header>
       <!-- Navigation bar -->
       <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container-fluid">
@@ -84,13 +84,26 @@
     </header>
 
     <main>
-      <section>
+      <div class="jumbotron">
+        <h1 class="display-4">Brick by Brick Ltd</h1>
+        <p class="lead">
+          Our speciality is the design and building of bespoke garden walls. We also specialise in the restoration of
+          deteriorating and damaged brick walls. We will arrange to attend your premises, establish your requirements
+          and have a detailed written quote ready for you within 48 hours of attendance. Please view our gallery page
+          for some examples of our work.
+        </p>
+        <hr class="my-4" />
+        <p>
+          Our Epirenced team will be happy to help you with any qestions you have of if you would like a free quote sing
+          up below
+        </p>
+
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
           Request Quote!!!
         </button>
 
-        <!-- Modal -->
+        <!-- Modal for form filling -->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
@@ -100,7 +113,7 @@
               </div>
               <div class="modal-body">
                 <form class="signup-form" action="https://formdump.codeinstitute.net/" method="post">
-                  <h2>Please fill and confirm the form if you wish us to contact with a free quote</h2>
+                  <h3>Please fill and confirm the form if you wish us to contact with a free quote</h3>
                   <div class="form-floating mb-3">
                     <input type="text" class="form-control" id="floatingFullName" placeholder="Full Name" />
                     <label for="floatingFullName">Full Name</label>
@@ -109,6 +122,7 @@
                     <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com" />
                     <label for="floatingEmail">Email address</label>
                   </div>
+
                   <div class="form-floating mb-3">
                     <input
                       type="tel"
@@ -121,6 +135,15 @@
                     />
                     <label for="floatingPhone">Phone Number</label>
                   </div>
+                  <div>
+                    <label for="file-upload">Please upload drawings for your project</label>
+                    <input
+                      type="file"
+                      id="file-upload"
+                      name="file-upload"
+                      accept=".doc, .docx, .xml, .pdf, .png, .jpg, .jpeg"
+                    />
+                  </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     <button type="button" class="btn btn-primary">Submit Request</button>
@@ -130,7 +153,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
       <!-- Company expierence and provided services -->
       <section class="row">
