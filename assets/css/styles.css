@@ -113,9 +113,8 @@ header {
 
 /* use this to determine logo boarder */
 .logo-svg {
-  width: 15vh;
-  height: 12vh;
-  /* border: green solid; */
+  width: calc(8.22px * 10);
+  height: calc(6.22px * 10);
 }
 
 /* Footer CSS */
@@ -164,7 +163,7 @@ footer {
   animation-delay: 0.9s;
 }
 
-@media screen and (max-width: 409px) {
+@media screen and (max-width: 460px) {
   .navbar {
     background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
