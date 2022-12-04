@@ -49,7 +49,7 @@
               d="m4.45 4.20 a0.25,0.25 0 0,0 -0.25,0.25 v1.5 a0.25,0.25 0 0,0 0.25,0.25 h3.5 a0.25,0.25 0 0,0 0.25,-0.25 v-1.5 a0.25,0.25 0 0,0 -0.25,-0.25 h-3.5"
             />
           </svg>
-          <a class="navbar-brand" href="#">Brick by Brick</a>
+          <a class="navbar-brand" href="index.html">Brick by Brick</a>
           <button
             class="navbar-toggler collapsed"
             type="button"
@@ -84,71 +84,92 @@
     </header>
 
     <main>
-      <div class="jumbotron">
-        <h1 class="display-4">Brick by Brick Ltd</h1>
-        <p class="lead">
-          Our speciality is the design and building of bespoke garden walls. We also specialise in the restoration of
-          deteriorating and damaged brick walls. We will arrange to attend your premises, establish your requirements
-          and have a detailed written quote ready for you within 48 hours of attendance. Please view our gallery page
-          for some examples of our work.
-        </p>
-        <hr class="my-4" />
-        <p>
-          Our Epirenced team will be happy to help you with any qestions you have of if you would like a free quote sing
-          up below
-        </p>
+      <div class="container-fluid py-5">
+        <div class="hero-outer container-lg justify-content-md-center">
+          <h1>Brick by Brick Ltd</h1>
+          <p class="top-text">
+            Our speciality is the design and building of bespoke garden walls. We also specialise in the restoration of
+            deteriorating and damaged brick walls. We will arrange to attend your premises, establish your requirements
+            and have a detailed written quote ready for you within 48 hours of attendance. Please view our gallery page
+            for some examples of our work.
+          </p>
+          <hr class="my-4" />
+          <p>
+            Our Epirenced team will be happy to help you with any qestions you have of if you would like a free quote
+            sing up below
+          </p>
 
-        <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-          Request Quote!!!
-        </button>
+          <!-- Button trigger modal -->
+          <div class="button-position">
+            <button
+              type="button"
+              class="btn btn-primary btn-request-quote"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Request Quote!!!
+            </button>
+          </div>
 
-        <!-- Modal for form filling -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Request a Free Quote</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <form class="signup-form" action="https://formdump.codeinstitute.net/" method="post">
-                  <h3>Please fill and confirm the form if you wish us to contact with a free quote</h3>
-                  <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="floatingFullName" placeholder="Full Name" />
-                    <label for="floatingFullName">Full Name</label>
-                  </div>
-                  <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com" />
-                    <label for="floatingEmail">Email address</label>
-                  </div>
+          <!-- Modal for form filling -->
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Request a Free Quote</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form class="signup-form" action="https://formdump.codeinstitute.net/" method="post">
+                    <h3>Please fill and confirm the form if you wish us to contact with a free quote</h3>
+                    <div class="form-floating mb-3">
+                      <input type="text" class="form-control" id="floatingFullName" placeholder="Full Name" required />
+                      <label for="floatingFullName">Full Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="floatingEmail"
+                        placeholder="name@example.com"
+                        required
+                      />
+                      <label for="floatingEmail">Email address</label>
+                    </div>
 
-                  <div class="form-floating mb-3">
-                    <input
-                      type="tel"
-                      class="form-control"
-                      id="floatingPhone"
-                      name="phone"
-                      pattern="[0-9]{3,4}-[0-9]{3,4}-[0-9]{4}"
-                      placeholder="07123456789"
-                      required
-                    />
-                    <label for="floatingPhone">Phone Number</label>
-                  </div>
-                  <div>
-                    <label for="file-upload">Please upload drawings for your project</label>
-                    <input
-                      type="file"
-                      id="file-upload"
-                      name="file-upload"
-                      accept=".doc, .docx, .xml, .pdf, .png, .jpg, .jpeg"
-                    />
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Submit Request</button>
-                  </div>
-                </form>
+                    <div class="form-floating mb-3">
+                      <input
+                        type="tel"
+                        class="form-control"
+                        id="floatingPhone"
+                        name="phone"
+                        pattern="[0-9]{3,4}-[0-9]{3,4}-[0-9]{4}"
+                        placeholder="07123456789"
+                        required
+                      />
+                      <label for="floatingPhone">Phone Number</label>
+                    </div>
+                    <div>
+                      <label for="file-upload">Please upload drawings for your project</label>
+                      <input
+                        type="file"
+                        id="file-upload"
+                        name="file-upload"
+                        accept=".doc, .docx, .xml, .pdf, .png, .jpg, .jpeg"
+                      />
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Submit Request</button>
+                    </div>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
@@ -156,49 +177,130 @@
       </div>
 
       <!-- Company expierence and provided services -->
-      <section class="row">
-        <div class="col-md-6 text-center">
+      <section class="row justify-content-md-center">
+        <div class="col-md-5 text-center">
           <div class="card">
             <div class="card-body">
               <h3>Some text about company services</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint assumenda, velit fugiat tempore veniam
-                omnis, nemo architecto id veritatis qui fuga dolor distinctio nulla iusto molestias aut maxime tenetur
-                laborum.
-              </p>
+              <ul class="info-ethos">
+                <li>Brickwork</li>
+                <li>Re-pointing</li>
+                <li>Crack repair</li>
+                <li>Knock throughs</li>
+                <li>Structural Steels</li>
+                <li>Extensions</li>
+                <li>Patios & Driveways</li>
+              </ul>
             </div>
           </div>
         </div>
-        <div class="text-center col-md-6">
+        <div class="col-md-5 text-center">
           <div class="card">
             <div class="card-body">
               <h3>Some text about company expierence</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, magni. Sit totam quis nam deserunt
-                dolorem eaque, eveniet atque quasi tempora debitis repellat voluptate, eum necessitatibus alias quos.
-                Error, pariatur.
+                We are an experienced team who are dedicated to providing a professional service with a high quality
+                finish to maximise the beauty of each home. <br />
+                From the moment I was introduced to brickwork I had a passion and natural skill for the trade, all my
+                training has been onsite first hand knowledge. I have a passion for restoring homes from run down
+                conditions to a high standard eye catching property. Our team love working with people to accomplish
+                their end vision.
               </p>
               <span class="badge badge-info">Info Badge</span> <span class="badge badge-danger">Danger Badge</span>
             </div>
           </div>
         </div>
       </section>
+
+      <div id="carouselExampleCaptions" class="carousel carousel-fade" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </main>
 
     <footer>
       <div class="row">
         <ul class="social-networks">
           <li>
-            <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+            <a aria-level="Link to facebook page" href="https://www.facebook.com" target="_blank"
+              ><i class="fa-brands fa-square-facebook"></i
+            ></a>
           </li>
           <li>
-            <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+            <a aria-level="Link to facebook page" href="https://www.twitter.com" target="_blank"
+              ><i class="fa-brands fa-square-twitter"></i
+            ></a>
           </li>
           <li>
-            <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a aria-level="Link to facebook page" href="https://www.youtube.com" target="_blank"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
           </li>
           <li>
-            <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a aria-level="Link to facebook page" href="https://www.instagram.com" target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
           </li>
         </ul>
         <div class="text-center col-lg-6 offset-lg-3">

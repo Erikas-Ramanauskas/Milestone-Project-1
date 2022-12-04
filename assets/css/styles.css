@@ -1,9 +1,13 @@
 @charset "utf-8";
 
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -13,6 +17,35 @@ header {
   background-position: center;
   height: 120px;
   width: 100%;
+}
+
+.navbar-brand {
+  margin: 0 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+h1 {
+  font-family: "Archivo", sans-serif;
+}
+p,
+ul {
+  font-size: 150%;
+  letter-spacing: 1.5px;
+}
+
+.button-position {
+  display: flex;
+  justify-content: center;
+}
+.btn-request-quote {
+  padding: 9px 14px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-align: center;
 }
 
 /* Navigation bar styling */
@@ -31,6 +64,7 @@ header {
   letter-spacing: 2px;
   float: right;
   margin-right: 30px;
+  font-family: "Archivo", sans-serif;
 }
 
 .navbar-nav .nav-link.active {
@@ -39,7 +73,8 @@ header {
   border-bottom: 1px white solid;
 }
 
-/* Hamburger animation css */
+/* Hamburger animation css (Start)*/
+/* ------------------------------------------------------- */
 .navbar-toggler {
   border: 0 !important;
 }
@@ -59,6 +94,19 @@ header {
   background-color: #ffffff;
   display: block;
   transition: all 0.2s;
+}
+
+main > div {
+  border: 3px solid green;
+}
+
+.hero-outer {
+  border: 3px solid green;
+  font-family: "roboto", sans-serif;
+}
+
+.top-text {
+  font-size: 150%;
 }
 
 /* Adds Space between the lines */
@@ -99,8 +147,11 @@ header {
   transform: rotate(0);
 }
 /* State when navbar is collapsed (END) */
+/* ------------------------------------------------------- */
+/* Hamburger animation css (Start)*/
 
-/* Logo styling */
+/* Logo styling  (Start)*/
+/* ------------------------------------------------------- */
 .logo-path {
   width: 50%;
   stroke-dashoffset: 12;
@@ -111,11 +162,42 @@ header {
   animation: logo-draw 3s linear forwards;
 }
 
-/* use this to determine logo boarder */
 .logo-svg {
   width: calc(8.22px * 10);
   height: calc(6.22px * 10);
 }
+
+/* Logo drawing keyframes */
+@keyframes logo-draw {
+  0% {
+    fill: none;
+  }
+
+  80% {
+    /* stroke-dashoffset: 0; */
+    fill: rgba(175, 175, 175, 0);
+  }
+
+  100% {
+    fill: rgb(188, 188, 188);
+    stroke-dashoffset: 0;
+  }
+}
+
+.brick4 {
+  animation-delay: 0.3s;
+}
+
+.brick3 {
+  animation-delay: 0.6s;
+}
+
+.brick2 {
+  animation-delay: 0.9s;
+}
+
+/* ------------------------------------------------------- */
+/* Logo styling  (End)*/
 
 /* Footer CSS */
 footer {
@@ -135,34 +217,6 @@ footer {
   color: #fdfafa;
 }
 
-/* Logo drawing keyframes */
-@keyframes logo-draw {
-  0% {
-    fill: none;
-  }
-
-  80% {
-    /* stroke-dashoffset: 0; */
-    fill: rgba(175, 175, 175, 0);
-  }
-
-  100% {
-    fill: rgb(188, 188, 188);
-    stroke-dashoffset: 0;
-  }
-}
-.brick4 {
-  animation-delay: 0.3s;
-}
-
-.brick3 {
-  animation-delay: 0.6s;
-}
-
-.brick2 {
-  animation-delay: 0.9s;
-}
-
 @media screen and (max-width: 460px) {
   .navbar {
     background-color: rgba(0, 0, 0, 0.7);
@@ -172,5 +226,11 @@ footer {
   }
   a .navbar-brand {
     padding-right: 0;
+  }
+  .logo-svg {
+    display: none;
+  }
+  .navbar-brand {
+    margin: 0;
   }
 }
