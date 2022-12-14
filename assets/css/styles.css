@@ -96,12 +96,7 @@ ul {
   transition: all 0.2s;
 }
 
-main > div {
-  border: 3px solid green;
-}
-
 .hero-outer {
-  border: 3px solid green;
   font-family: "roboto", sans-serif;
 }
 
@@ -196,12 +191,18 @@ main > div {
   animation-delay: 0.9s;
 }
 
+/* Carousel adjustments */
+.carousel-shadow {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
 /* ------------------------------------------------------- */
 /* Logo styling  (End)*/
 
 /* Footer CSS */
 footer {
-  background-color: rgb(195, 195, 195);
+  background-color: rgba(132, 130, 130, 0.162);
 }
 .social-networks {
   text-align: center;
