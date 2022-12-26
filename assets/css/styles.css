@@ -15,7 +15,7 @@ header {
   background-image: url(https://images.pexels.com/photos/93417/pexels-photo-93417.jpeg);
   background-size: cover;
   background-position: center;
-  height: 120px;
+  padding: 20px;
   width: 100%;
 }
 
@@ -23,16 +23,17 @@ header {
   margin: 0 20px;
   text-transform: uppercase;
   font-weight: bold;
-  text-shadow: 2px 2px 4px #000000;
 }
 
 h1 {
   font-family: "Archivo", sans-serif;
+  text-transform: uppercase;
 }
 p,
 ul {
   font-size: 150%;
   letter-spacing: 1.5px;
+  list-style-type: none;
 }
 
 .button-position {
@@ -50,11 +51,8 @@ ul {
 
 /* Navigation bar styling */
 .navbar {
-  background-color: rgba(0, 0, 0, 0.3);
-  width: calc(100% - 40px);
-  margin: 20px;
+  background-color: rgba(82, 82, 82, 0.5);
   border-radius: 10px;
-  position: absolute;
 }
 
 .navbar .navbar-brand,
@@ -62,6 +60,7 @@ ul {
   color: white;
   font-size: 1.5rem;
   letter-spacing: 2px;
+  text-shadow: 2px 2px 4px #000000;
   float: right;
   margin-right: 30px;
   font-family: "Archivo", sans-serif;
@@ -71,6 +70,22 @@ ul {
   padding-bottom: 0;
   color: white;
   border-bottom: 1px white solid;
+}
+
+/* Hero box styling*/
+.hero-outer {
+  background-color: rgba(82, 82, 82, 0.5);
+  border-radius: 10px;
+  color: white;
+  margin-top: 20px;
+  padding: 20px 12px;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+}
+
+.top-text {
+  font-size: 150%;
+  text-transform: uppercase;
 }
 
 /* Hamburger animation css (Start)*/
@@ -94,14 +109,6 @@ ul {
   background-color: #ffffff;
   display: block;
   transition: all 0.2s;
-}
-
-.hero-outer {
-  font-family: "roboto", sans-serif;
-}
-
-.top-text {
-  font-size: 150%;
 }
 
 /* Adds Space between the lines */
@@ -204,18 +211,23 @@ ul {
 footer {
   background-color: rgba(132, 130, 130, 0.162);
 }
-.social-networks {
-  text-align: center;
+
+.footer-rights {
+  font-size: 10px;
 }
 
-.social-networks li {
-  display: inline;
-}
-
-.social-networks i {
-  font-size: 250%;
-  margin: 1%;
-  color: #fdfafa;
+/* ------------------------------------------------------- */
+/* need to check why social links get line under the icons */
+.social-networks li a i {
+  border-radius: 15%;
+  background-color: rgb(62, 62, 62);
+  width: 55px;
+  height: 55px;
+  font-size: 35px;
+  color: #f50808;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 460px) {
