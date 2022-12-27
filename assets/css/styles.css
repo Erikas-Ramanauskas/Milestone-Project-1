@@ -1,5 +1,21 @@
 @charset "utf-8";
 
+:root {
+  --primary-color: rgb(242, 211, 172);
+  --secondary-color: rgb(166, 119, 78);
+  --third-color: rgba(89, 64, 54, 0.5);
+  --shade-color: rgb(191, 146, 120);
+  --shadow-color: rgb(38, 30, 27);
+}
+
+body {
+  background-color: var(--shade-color);
+}
+
+.first-section {
+  background-color: var(--secondary-color);
+}
+
 /* google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto&display=swap");
 
@@ -7,16 +23,26 @@
   margin: 0;
   padding: 0;
   border: 0;
+  box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
 
 header {
   clear: both;
-  background-image: url(https://images.pexels.com/photos/93417/pexels-photo-93417.jpeg);
+  background-image: url(/assets/Images/Background-4.jpg);
   background-size: cover;
-  background-position: center;
-  padding: 20px;
+  background-position: bottom;
   width: 100%;
+}
+
+main {
+  margin: 30px 0;
+  padding-top: 20px;
+}
+
+.header-colour {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), var(--shade-color));
+  padding: 20px;
 }
 
 .navbar-brand {
@@ -51,8 +77,9 @@ ul {
 
 /* Navigation bar styling */
 .navbar {
-  background-color: rgba(82, 82, 82, 0.5);
+  background-color: var(--third-color);
   border-radius: 10px;
+  /* backdrop-filter: blur(10px); */
 }
 
 .navbar .navbar-brand,
@@ -74,11 +101,12 @@ ul {
 
 /* Hero box styling*/
 .hero-outer {
-  background-color: rgba(82, 82, 82, 0.5);
+  background-color: var(--third-color);
+  /* backdrop-filter: blur(10px); */
   border-radius: 10px;
   color: white;
-  margin-top: 20px;
-  padding: 20px 12px;
+  margin: 60px 0;
+  padding: 30px 30px;
   text-shadow: 2px 2px 4px #000000;
   text-align: center;
 }
@@ -87,6 +115,16 @@ ul {
   font-size: 150%;
   text-transform: uppercase;
 }
+
+/* Modal Styling */
+
+.modal-content,
+.form-control {
+  background-color: var(--shadow-color);
+}
+/* .form-control:focus-within {
+  background-color: red;
+} */
 
 /* Hamburger animation css (Start)*/
 /* ------------------------------------------------------- */
@@ -209,7 +247,7 @@ ul {
 
 /* Footer CSS */
 footer {
-  background-color: rgba(132, 130, 130, 0.162);
+  background-color: var(--secondary-color);
 }
 
 .footer-rights {
@@ -219,12 +257,13 @@ footer {
 /* ------------------------------------------------------- */
 /* need to check why social links get line under the icons */
 .social-networks li a i {
-  border-radius: 15%;
-  background-color: rgb(62, 62, 62);
+  border-radius: 30%;
+  background-color: var(--primary-color);
   width: 55px;
   height: 55px;
   font-size: 35px;
-  color: #f50808;
+  margin-top: 15px;
+  color: var(--secondary-color);
   display: flex;
   justify-content: center;
   align-items: center;

@@ -24,8 +24,9 @@
   </head>
   <body>
     <header>
+      <div class="header-colour">
       <!-- Navigation bar -->
-      <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <!-- Logo SVG -->
           <svg class="logo-svg" viewBox="0 0 8.22 6.22">
@@ -82,8 +83,10 @@
         </div>
       </nav>
       <div class="container-fluid">
-        <div class="row justify-content-md-center">
-          <div class="col-lg-8 col-12 hero-outer">
+        
+        <div class="row">
+          <div class="col-lg-2 col-auto"></div>
+          <div class="col-lg-4 col-12 hero-outer">
             <h1>Brick by Brick Ltd</h1>
             <p class="top-text">Build your dreams, we'll lay the bricks!</p>
             <hr class="my-4" />
@@ -120,7 +123,7 @@
                   </div>
                   <div class="modal-body">
                     <form class="signup-form" action="https://formdump.codeinstitute.net/" method="post">
-                      <h3>Please fill and confirm the form if you wish us to contact with a free quote</h3>
+                      <h3>Please fill the form for a free quote!</h3>
                       <div class="form-floating mb-3">
                         <input
                           type="text"
@@ -154,6 +157,15 @@
                         />
                         <label for="floatingPhone">Phone Number</label>
                       </div>
+                          <div class="form-floating mb-3">
+                        <textarea
+                          class="form-control"
+                          id="floatingTextarea"
+                          placeholder="textarea"
+                          rows="3"
+                        ></textarea>
+                        <label for="floatingTextarea">Add some info about your project</label>
+                      </div>
                       <div>
                         <label for="file-upload">Please upload drawings for your project</label>
                         <input
@@ -173,14 +185,20 @@
               </div>
             </div>
           </div>
+          <div class="col-lg-6 col-auto"></div>
         </div>
       </div>
+    </div>
     </header>
 
     <main>
       <!-- Company expierence and provided services -->
-      <section class="row justify-content-lg-center">
-        <div class="col-xl-5 text-center">
+
+      <!-- first section -->
+    <div class="container-fluid 
+    first-section">
+      <section class="row justify-content-md-center">
+        <div class="col-lg-5 text-center">
           <div class="card">
             <div class="card-body">
               <h3>Some text about company services</h3>
@@ -196,7 +214,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-5 text-start">
+        <div class="col-lg-5 text-start">
           <div class="card">
             <div class="card-body">
               <h3>Some text about company expierence</h3>
@@ -213,8 +231,12 @@
           </div>
         </div>
       </section>
-    </main>
-    <div class="container-sm">
+    </div>
+    
+    <!-- Carusel container -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 justify-content-lg-center">
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false" data-bs-touch="false">
         <div class="carousel-indicators">
           <button
@@ -294,6 +316,10 @@
         </button>
       </div>
     </div>
+    </div>
+    </div>
+  </main>
+
     <footer>
       <ul class="list-inline social-networks text-center">
         <li class="list-inline-item">
