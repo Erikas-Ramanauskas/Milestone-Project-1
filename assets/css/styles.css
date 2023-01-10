@@ -1,5 +1,16 @@
 @charset "utf-8";
 
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto&display=swap");
+
+/* primary colors */
 :root {
   --primary-color: rgb(242, 211, 172);
   --secondary-color: rgb(166, 119, 78);
@@ -12,32 +23,41 @@ body {
   background-color: var(--shade-color);
 }
 
-.first-section {
+.darker-background {
   background-color: var(--secondary-color);
 }
 
-/* google fonts */
-@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+.main-image {
+  background-color: var(--third-color);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border-radius: 1rem;
 }
 
+.main-text {
+  background-color: var(--third-color);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border-radius: 1rem;
+  padding: 3rem 3rem 2rem;
+  color: white;
+}
+
+.main-section-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 3rem;
+  padding: 1.5rem;
+}
+
+/* Header */
 header {
   clear: both;
   background-image: url(/assets/Images/Background-4.jpg);
   background-size: cover;
   background-position: bottom;
   width: 100%;
-}
-
-main {
-  margin: 30px 0;
-  padding-top: 20px;
 }
 
 .header-colour {
@@ -54,6 +74,8 @@ main {
 h1 {
   font-family: "Archivo", sans-serif;
   text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3px;
 }
 p,
 ul {
@@ -69,7 +91,7 @@ ul {
 .btn-request-quote {
   padding: 9px 14px;
   border-radius: 50px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   letter-spacing: 1.5px;
   text-align: center;
@@ -93,8 +115,31 @@ ul {
   font-family: "Archivo", sans-serif;
 }
 
+.nav-link {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform-origin: bottom left;
+  transition: transform 0.4s ease-out;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom right;
+}
+
 .navbar-nav .nav-link.active {
-  padding-bottom: 0;
   color: white;
   border-bottom: 1px white solid;
 }
@@ -112,8 +157,9 @@ ul {
 }
 
 .top-text {
-  font-size: 150%;
+  font-size: 200%;
   text-transform: uppercase;
+  word-spacing: 3px;
 }
 
 /* Modal Styling */
@@ -255,27 +301,33 @@ footer {
 }
 
 /* ------------------------------------------------------- */
-/* need to check why social links get line under the icons */
-.social-networks li a i {
+
+.fa-brands {
   border-radius: 30%;
   background-color: var(--primary-color);
-  width: 55px;
-  height: 55px;
-  font-size: 35px;
-  margin-top: 15px;
+  width: 4rem;
+  height: 4rem;
+  font-size: 2.5rem;
+  margin-top: 1rem;
   color: var(--secondary-color);
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.fa-brands:hover {
+  color: var(--primary-color);
+  background-color: var(--shadow-color);
+}
+
+a {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 460px) {
-  .navbar {
-    background-color: rgba(0, 0, 0, 0.7);
-    width: 100%;
-    margin: 0;
-    border-radius: 0;
-  }
   a .navbar-brand {
     padding-right: 0;
   }
