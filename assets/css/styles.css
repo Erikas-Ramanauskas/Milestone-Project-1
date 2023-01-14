@@ -63,7 +63,7 @@ a {
 
 header {
     clear: both;
-    background-image: url(assets/Images/Background-4.jpg);
+    background-image: url(/assets/Images/Background-4.jpg);
     background-size: cover;
     background-position: bottom;
     width: 100%;
@@ -89,7 +89,7 @@ h1 {
 
 p,
 ul {
-    font-size: 18px;
+    font-size: 1.5rem;
     letter-spacing: 1.5px;
     list-style-type: none;
 }
@@ -119,7 +119,7 @@ ul {
 .navbar .navbar-brand,
 .navbar .nav-link {
     color: white;
-    font-size: 1.5rem;
+    font-size: 24px;
     letter-spacing: 2px;
     text-shadow: 2px 2px 4px #000000;
     float: right;
