@@ -63,7 +63,7 @@ a {
 
 header {
     clear: both;
-    background-image: url(/assets/Images/Background-4.jpg);
+    background-image: url(assets/Images/Background-4.jpg);
     background-size: cover;
     background-position: bottom;
     width: 100%;
