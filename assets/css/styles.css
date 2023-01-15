@@ -12,7 +12,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Archivo&family=Quicksand&family=Roboto&family=Saira&display=swap");
 
-/* primary colors */
+/* primary colors and sections */
 
 :root {
     --primary-color: rgb(242, 211, 172);
@@ -34,29 +34,53 @@ a {
     background-color: var(--secondary-color);
 }
 
-.main-image {
-    background-color: var(--third-color);
-    margin-top: 3rem;
+.header-2 {
+    display: inline-block;
+    text-align: center;
+    font-family: "Archivo", sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #fff;
+    margin-top: 4rem;
     margin-bottom: 3rem;
-    border-radius: 1rem;
+    border-bottom: #fff 3px solid;
 }
+
+
+/*  Main section */
 
 .main-text {
     background-color: var(--third-color);
-    margin-top: 3rem;
-    margin-bottom: 3rem;
     border-radius: 1rem;
     padding: 3rem 3rem 2rem;
     color: white;
 }
 
-.main-section-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 3rem;
-    padding: 1.5rem;
+.main-text p {
+    font-size: 1.4rem;
 }
+
+.main-image {
+    padding-top: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-padding {
+    padding: 3rem 0;
+}
+
+.main-section-img {
+    box-shadow: -2rem -2rem var(--third-color);
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+
+
+/* -------------------------------------------- */
 
 
 /* Header */
@@ -87,8 +111,8 @@ h1 {
     letter-spacing: 3px;
 }
 
-p,
-ul {
+.info-ethos,
+.navbar-nav {
     font-size: 1.5rem;
     letter-spacing: 1.5px;
     list-style-type: none;
@@ -102,7 +126,7 @@ ul {
 .btn-request-quote {
     padding: 9px 14px;
     border-radius: 50px;
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: 1.5px;
     text-align: center;
@@ -130,7 +154,7 @@ ul {
 
 .navbar .contact {
     font-family: "Saira", sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 .nav-link {
@@ -280,9 +304,6 @@ ul {
 /* ------------------------------------------------------- */
 
 
-/* Hamburger animation css (Start)*/
-
-
 /* Logo styling  (Start)*/
 
 
@@ -339,10 +360,18 @@ ul {
 /* Logo styling  (End)*/
 
 
-/* -----------------------Carousel adjustments ------------*/
+/* Carousel adjustments */
+
+
+/* -------------------------------------------------------*/
 
 .carousel-adjustments {
-    margin: 3rem;
+    margin: 2rem;
+}
+
+.central-header {
+    display: flex;
+    justify-content: center;
 }
 
 .carousel-item img {
@@ -357,8 +386,7 @@ ul {
 .carousel-caption h5,
 .review-description,
 .review-name {
-    font-size: 20px;
-    /* text-shadow: 2px 2px 4px #000000; */
+    font-size: 1.25rem;
     letter-spacing: 2px;
 }
 
@@ -380,10 +408,6 @@ h5 {
 
 footer {
     background-color: var(--secondary-color);
-}
-
-.footer-rights {
-    font-size: 10px;
 }
 
 
@@ -409,6 +433,23 @@ footer {
 .fa-brands:hover {
     color: var(--primary-color);
     background-color: var(--shadow-color);
+}
+
+.footer-rights {
+    font-size: 1.25rem;
+}
+
+.rights-link {
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.rights-link:hover {
+    color: var(--shadow-color);
 }
 
 @media screen and (max-width: 460px) {
@@ -457,7 +498,7 @@ footer {
     /*makes it stick to the bottom, without it it falls lower */
     width: calc(100% - 24px);
     /* bacause col class automaticaly has 12 pading on both sides it makes card-description class become bigger than immage and force it on the right instead of center. i would like to know other ways around this but best soliution i can think of is -24px to solve the problem.  */
-    font-size: 18px;
+    font-size: 1rem;
     visibility: hidden;
     text-align: center;
     opacity: 0;
@@ -521,4 +562,38 @@ footer {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+
+/* About us Section */
+
+.about-us-main {
+    margin-bottom: 20px;
+}
+
+.card {
+    border: 1px var(--secondary-color) solid;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+}
+
+.card-body {
+    background-color: var(--secondary-color);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    padding-left: 10px;
+    min-width: 50%;
+    display: inline-block;
+    border-bottom: #fff solid 2px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    /* border: red solid 1px; */
+}
+
+.card-text {
+    font-size: 1.2rem;
 }
