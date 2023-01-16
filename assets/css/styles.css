@@ -41,8 +41,8 @@ a {
     font-weight: 500;
     letter-spacing: 2px;
     color: #fff;
-    margin-top: 4rem;
-    margin-bottom: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
     border-bottom: #fff 3px solid;
 }
 
@@ -52,31 +52,31 @@ a {
 .main-text {
     background-color: var(--third-color);
     border-radius: 1rem;
-    padding: 3rem 3rem 2rem;
+    padding: 2rem 2rem;
     color: white;
 }
 
 .main-text p {
-    font-size: 1.4rem;
+    /* font-size: 1rem; */
 }
 
 .main-image {
-    padding-top: 2rem;
+    padding-top: 1rem;
     border-radius: 1rem;
     display: flex;
     justify-content: flex-end;
 }
 
 .main-padding {
-    padding: 3rem 0;
+    padding: 2rem 0;
 }
 
 .main-section-img {
-    box-shadow: -2rem -2rem var(--third-color);
+    box-shadow: -1rem -1rem var(--third-color);
     width: 95%;
     height: 95%;
     object-fit: cover;
-    border-radius: 2rem;
+    border-radius: 1rem;
 }
 
 
@@ -107,13 +107,13 @@ header {
 h1 {
     font-family: "Archivo", sans-serif;
     text-transform: uppercase;
+    font-size: 1.75rem;
     font-weight: 600;
     letter-spacing: 3px;
 }
 
 .info-ethos,
 .navbar-nav {
-    font-size: 1.5rem;
     letter-spacing: 1.5px;
     list-style-type: none;
 }
@@ -126,7 +126,6 @@ h1 {
 .btn-request-quote {
     padding: 9px 14px;
     border-radius: 50px;
-    font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: 1.5px;
     text-align: center;
@@ -143,9 +142,9 @@ h1 {
 .navbar .navbar-brand,
 .navbar .nav-link {
     color: white;
-    font-size: 24px;
+    font-size: 1.12rem;
     letter-spacing: 2px;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 1.5px 1.5px 3px #000000;
     float: right;
     margin-right: 30px;
     font-family: "Archivo", sans-serif;
@@ -154,7 +153,6 @@ h1 {
 
 .navbar .contact {
     font-family: "Saira", sans-serif;
-    font-size: 1.5rem;
 }
 
 .nav-link {
@@ -200,7 +198,7 @@ h1 {
 }
 
 .top-text {
-    font-size: 200%;
+    font-size: 1.25rem;
     text-transform: uppercase;
     word-spacing: 3px;
 }
@@ -386,7 +384,6 @@ h1 {
 .carousel-caption h5,
 .review-description,
 .review-name {
-    font-size: 1.25rem;
     letter-spacing: 2px;
 }
 
@@ -395,7 +392,7 @@ h5 {
 }
 
 .carousel-caption {
-    padding: 1rem 1rem;
+    padding: 1rem;
 }
 
 .review-name {
@@ -416,9 +413,9 @@ footer {
 .fa-brands {
     border-radius: 30%;
     background-color: var(--primary-color);
-    width: 4rem;
-    height: 4rem;
-    font-size: 2.5rem;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
     margin-top: 1rem;
     color: var(--secondary-color);
     display: flex;
@@ -433,10 +430,6 @@ footer {
 .fa-brands:hover {
     color: var(--primary-color);
     background-color: var(--shadow-color);
-}
-
-.footer-rights {
-    font-size: 1.25rem;
 }
 
 .rights-link {
@@ -498,7 +491,6 @@ footer {
     /*makes it stick to the bottom, without it it falls lower */
     width: calc(100% - 24px);
     /* bacause col class automaticaly has 12 pading on both sides it makes card-description class become bigger than immage and force it on the right instead of center. i would like to know other ways around this but best soliution i can think of is -24px to solve the problem.  */
-    font-size: 1rem;
     visibility: hidden;
     text-align: center;
     opacity: 0;
