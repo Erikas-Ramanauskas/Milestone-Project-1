@@ -22,6 +22,10 @@
     --shadow-color: rgb(38, 30, 27);
 }
 
+main {
+    overflow-x: hidden;
+}
+
 body {
     background-color: var(--shade-color);
 }
@@ -458,6 +462,9 @@ footer {
 }
 
 
+/* -------------------------------------------------------- */
+
+
 /* Galery adjustments */
 
 .galery-images-list {
@@ -496,8 +503,6 @@ footer {
     opacity: 0;
     transform: translateY(50px);
     transition: visibility 0s, opacity 0.5s linear, transform 0.5s ease-in-out;
-    /* Testing Border */
-    /* border: solid rgb(254, 254, 254) 3px; */
 }
 
 .location,
@@ -535,7 +540,13 @@ footer {
 }
 
 
+/* -------------------------------------- */
+
+
 /* Contact us section */
+
+
+/* contact details */
 
 .contact-logo,
 .contact-title,
@@ -555,6 +566,21 @@ footer {
     font-size: 2rem;
 }
 
+
+/* Contact form */
+
+.form-2-style {
+    background-color: white;
+}
+
+.form-2-style:focus {
+    background-color: var(--primary-color);
+    color: #000;
+}
+
+
+/* Google maps modifications */
+
 .map-container {
     position: relative;
     height: 450px;
@@ -565,6 +591,9 @@ footer {
     width: 100%;
     height: 100%;
 }
+
+
+/* -------------------------------------------------- */
 
 
 /* About us Section */
