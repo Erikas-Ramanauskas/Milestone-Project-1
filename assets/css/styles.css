@@ -61,7 +61,7 @@ a {
 }
 
 .main-text p {
-    /* font-size: 1rem; */
+    letter-spacing: 1.5px;
 }
 
 .main-image {
@@ -543,7 +543,7 @@ footer {
 /* -------------------------------------- */
 
 
-/* Contact us section */
+/* Contact us page */
 
 
 /* contact details */
@@ -575,6 +575,17 @@ footer {
 
 .form-2-style:focus {
     background-color: var(--primary-color);
+    color: #000;
+}
+
+.submit-button-2 {
+    background-color: var(--shadow-color);
+    color: #fff;
+}
+
+.submit-button-2:hover {
+    background-color: var(--secondary-color);
+    border: var(--shadow-color) 2px solid;
     color: #000;
 }
 
