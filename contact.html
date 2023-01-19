@@ -54,32 +54,41 @@
             <span class="toggler-icon middle-bar"></span>
             <span class="toggler-icon bottom-bar"></span>
           </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-xl-0 mr-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    <div class="navbar-collapse" id="navbarSupportedContent">
+                        <ul class="ms-auto nav-group">
+                            <li class="nav-group-inline">
+                                <ul class="navbar-nav justify-content-end">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about-us.html">About Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="galery.html">Galery</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about-us.html">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="galery.html">Galery</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="contact.html">Contact</a>
-                            </li>
-                            <li>
-                                <a href="tel:07446979516" class="nav-link contact">
-                                    <span>
-                  <span class="contact-icons"><i class="fa-solid fa-phone"></i>
-                 </span> 07446979516</span>
-                                </a>
-
-                                <a href="mailto:info@brickbybrick.co.uk" class="nav-link contact">
-                                    <span>
-                  <span class="contact-icons"><i class="fa-solid fa-envelope"></i></span> info@brickbybrick.co.uk
-                                    </span>
-                                </a>
+                            <li class="nav-group-inline">
+                                <ul class="navbar-nav">
+                                    <li>
+                                        <a href="tel:+447446979516" class="nav-link contact">
+                                            <span>
+      <span class="contact-icons"><i class="fa-solid fa-phone"></i>
+     </span> 07446979516</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="mailto:info@brickbybrick.co.uk" class="nav-link contact">
+                                            <span>
+      <span class="contact-icons"><i class="fa-solid fa-envelope"></i></span> info@brickbybrick.co.uk
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
                             </li>
                         </ul>
                     </div>
@@ -93,89 +102,102 @@
             <div class="row justify-content-center gy-4">
                 <div class="col-lg-3 col-md-4">
                     <div class="contact-logo"><i class="fa-solid fa-phone"></i></div>
-                    <h4 class="contact-title">Phone</h4>
+                    <div class="link-container">
+                        <a href="tel:07446979516">
+                            <span class="contact-title">Phone</span>
+                        </a>
+                    </div>
                     <p class="contact-detail">+4474 4697 9516</p>
                 </div>
                 <div class="col-lg-3 col-md-4">
                     <div class="contact-logo"><i class="fa-solid fa-envelope"></i></div>
-                    <h4 class="contact-title">Email</h4>
+                    <div class="link-container">
+                        <a href="mailto:info@brickbybrick.co.uk">
+                            <span class="contact-title">Email</span>
+                        </a>
+                    </div>
                     <p class="contact-detail">info@brickbybrick.co.uk</p>
                 </div>
                 <div class="col-lg-3 col-md-4">
                     <div class="contact-logo"><i class="fa-solid fa-location-dot"></i></div>
-                    <h4 class="contact-title">Location</h4>
-                    <p class="contact-detail">30 West point, <br> 9 Shortlands Grove <br>Bromley, London
+                    <div class="link-container">
+                        <a href="https://goo.gl/maps/po1G5Hr6T9NkbZnt8" target="_blank">
+                            <span class="contact-title">Location</span>
+                        </a>
+                    </div>
+                    <p class="contact-detail ">30 West point, <br> 9 Shortlands Grove <br>Bromley, London
                         <br>BR2 0ND</p>
                     </p>
                 </div>
+                <!-- https://goo.gl/maps/po1G5Hr6T9NkbZnt8 -->
             </div>
         </div>
 
-        <div class="container mb-5">
+        <div class="container mb-5 ">
             <div class="row justify-content-center gx-5 ">
-                <div class="col col-lg-5">
-                    <form class="signup-form" action="https://formdump.codeinstitute.net/" method="post">
-                        <div class="form-floating mb-3">
-                            <input type="text" class="form-control form-2-style" id="floatingFullName" placeholder="Full Name" required />
-                            <label for="floatingFullName">Full Name</label>
+                <div class="col col-lg-5 ">
+                    <form class="signup-form " action="https://formdump.codeinstitute.net/ " method="post ">
+                        <div class="form-floating mb-3 ">
+                            <input type="text " class="form-control form-2-style " id="floatingFullName " placeholder="Full Name " required />
+                            <label for="floatingFullName ">Full Name</label>
                         </div>
-                        <div class="form-floating mb-3">
-                            <input type="email" class="form-control form-2-style" id="floatingEmail" placeholder="name@example.com" required />
-                            <label for="floatingEmail">Email address</label>
+                        <div class="form-floating mb-3 ">
+                            <input type="email " class="form-control form-2-style " id="floatingEmail " placeholder="name@example.com " required />
+                            <label for="floatingEmail ">Email address</label>
                         </div>
 
-                        <div class="form-floating mb-3">
-                            <input type="tel" class="form-control form-2-style" id="floatingPhone" name="phone" pattern="[0-9]{3,4}-[0-9]{3,4}-[0-9]{4}" placeholder="07123456789" required />
-                            <label for="floatingPhone">Phone Number</label>
+                        <div class="form-floating mb-3 ">
+                            <input type="tel " class="form-control form-2-style " id="floatingPhone " name="phone " pattern="[0-9]{3,4}-[0-9]{3,4}-[0-9]{4}" placeholder="07123456789 " required />
+                            <label for="floatingPhone ">Phone Number</label>
                         </div>
-                        <div class="form-floating mb-3">
-                            <textarea class="form-control form-2-style" id="floatingTextarea" placeholder="textarea" rows="3"></textarea>
+                        <div class="form-floating mb-3 ">
+                            <textarea class="form-control form-2-style" id="floatingTextarea" placeholder="textarea "></textarea>
                             <label for="floatingTextarea">Add some info about your project</label>
                         </div>
                         <div>
-                            <label for="file-upload">Please upload drawings for your project</label>
-                            <input type="file" id="file-upload" name="file-upload" class="file-upload-css" accept=".doc, .docx, .xml, .pdf, .png, .jpg, .jpeg" />
+                            <label for="file-upload ">Please upload drawings for your project</label>
+                            <input type="file" id="file-upload-2" name="file-upload" class="file-upload-css" accept=".doc, .docx, .xml, .pdf, .png, .jpg, .jpeg" />
                         </div>
-                        <button type="button" class="btn submit-button-2">Submit Request</button>
+                        <button type="button" class="btn submit-button-2 ">Submit Request</button>
                     </form>
                 </div>
-                <div class="col-lg-5 map-container">
-                    <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2489.042418876428!2d-0.007983123605155155!3d51.40227527178963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487601d978e1b565%3A0x6fab8e7492dfabaf!2s9%20Shortlands%20Grove%2C%20Bromley%20BR2%200ND!5e0!3m2!1sen!2suk!4v1673653508204!5m2!1sen!2suk"
-                        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="col-lg-5 map-container ">
+                    <iframe class="google-map " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2489.042418876428!2d-0.007983123605155155!3d51.40227527178963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487601d978e1b565%3A0x6fab8e7492dfabaf!2s9%20Shortlands%20Grove%2C%20Bromley%20BR2%200ND!5e0!3m2!1sen!2suk!4v1673653508204!5m2!1sen!2suk "
+                        style="border:0; " allowfullscreen=" " loading="lazy " referrerpolicy="no-referrer-when-downgrade "></iframe>
                 </div>
             </div>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center ">
 
             </div>
         </div>
     </main>
 
     <footer>
-        <ul class="list-inline social-networks text-center">
-            <li class="list-inline-item">
-                <a aria-level="Link to facebook page" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook" aria-hidden="true"></i
+        <ul class="list-inline social-networks text-center ">
+            <li class="list-inline-item ">
+                <a aria-label="Link to facebook page " href="https://www.facebook.com " target="_blank "><i class="fa-brands fa-square-facebook " aria-hidden="true "></i
           ></a>
             </li>
-            <li class="list-inline-item">
-                <a aria-level="Link to twiter page" href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-square-twitter" aria-hidden="true"></i
+            <li class="list-inline-item ">
+                <a aria-label="Link to twiter page " href="https://www.twitter.com " target="_blank "><i class="fa-brands fa-square-twitter " aria-hidden="true "></i
           ></a>
             </li>
-            <li class="list-inline-item">
-                <a aria-level="Link to youtube page" href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube" aria-hidden="true"></i
+            <li class="list-inline-item ">
+                <a aria-label="Link to youtube page " href="https://www.youtube.com " target="_blank "><i class="fa-brands fa-youtube " aria-hidden="true "></i
           ></a>
             </li>
-            <li class="list-inline-item">
-                <a aria-level="Link to instagram page" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-square-instagram" aria-hidden="true"></i></i
+            <li class="list-inline-item ">
+                <a aria-label="Link to instagram page " href="https://www.instagram.com " target="_blank "><i class="fa-brands fa-square-instagram " aria-hidden="true "></i></i
           ></a>
             </li>
         </ul>
-        <div class="text-center col-lg-6 offset-lg-3 footer-rights">
-            <p>Copyright &copy; 2022 &middot; All Rights Reserved &middot; <a class="rights-link" href="index.html">Brick by Brick</a></p>
+        <div class="text-center col-lg-6 offset-lg-3 footer-rights ">
+            <p>Copyright &copy; 2022 &middot; All Rights Reserved &middot; <a class="rights-link " href="index.html ">Brick by Brick</a></p>
         </div>
     </footer>
     <!-- JavaScript links -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js " integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3 " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js " integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V " crossorigin="anonymous "></script>
 </body>
 
 </html>

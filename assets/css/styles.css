@@ -26,6 +26,13 @@ main {
     overflow-x: hidden;
 }
 
+
+/* modify teaxtera */
+
+#floatingTextarea {
+    height: 130px;
+}
+
 body {
     background-color: var(--shade-color);
 }
@@ -91,7 +98,7 @@ a {
 
 header {
     clear: both;
-    background-image: url(/assets/Images/Background-4.jpg);
+    background-image: url(../Images/Background-4.jpg);
     background-size: cover;
     background-position: bottom;
     width: 100%;
@@ -116,12 +123,6 @@ h1 {
     letter-spacing: 3px;
 }
 
-.info-ethos,
-.navbar-nav {
-    letter-spacing: 1.5px;
-    list-style-type: none;
-}
-
 .button-position {
     display: flex;
     justify-content: center;
@@ -129,14 +130,33 @@ h1 {
 
 .btn-request-quote {
     padding: 9px 14px;
-    border-radius: 50px;
+    border-radius: 10px;
     font-weight: bold;
     letter-spacing: 1.5px;
     text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: var(--shadow-color);
+    border: var(--shadow-color) solid 1px;
+}
+
+.btn-request-quote:hover {
+    background-color: var(--shade-color);
+    border: var(--shadow-color) solid 1px;
+}
+
+.navbar-collapse,
+ul,
+li {
+    margin-bottom: 0;
 }
 
 
 /* Navigation bar styling */
+
+.navbar-nav,
+.nav-group {
+    list-style-type: none;
+}
 
 .navbar {
     background-color: var(--third-color);
@@ -165,6 +185,10 @@ h1 {
     color: #fff;
 }
 
+.nav-group-inline {
+    display: inline-block;
+}
+
 .nav-link::after {
     content: "";
     position: absolute;
@@ -184,8 +208,30 @@ h1 {
 }
 
 .navbar-nav .nav-link.active {
-    color: rgb(225, 225, 225);
+    font-weight: 600;
+    color: rgb(204, 203, 203);
     border-bottom: 1px rgb(225, 225, 225) solid;
+}
+
+
+/* media quaries */
+
+@media screen and (max-width: 460px) {
+    a .navbar-brand {
+        padding-right: 0;
+    }
+    .logo-svg {
+        display: none;
+    }
+    .navbar-brand {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1276px) {
+    .nav-group-inline {
+        display: block;
+    }
 }
 
 
@@ -222,6 +268,33 @@ h1 {
 .form-1-style:focus {
     background-color: var(--third-color);
     color: #fff;
+}
+
+.btn-close-modal,
+.btn-submit-modal {
+    padding: 6px 14px;
+    border-radius: 10px;
+    letter-spacing: 1.5px;
+    color: rgb(255, 255, 255);
+}
+
+.btn-close-modal {
+    background-color: var(--third-color);
+    border: var(--third-color) solid 1px;
+}
+
+.btn-close-modal:hover {
+    background-color: rgb(210, 143, 10);
+}
+
+.btn-submit-modal {
+    background-color: var(--secondary-color);
+    border: var(--secondary-color) solid 1px;
+}
+
+.btn-submit-modal:hover {
+    background-color: var(--primary-color);
+    color: #000;
 }
 
 
@@ -362,6 +435,13 @@ h1 {
 /* Logo styling  (End)*/
 
 
+/* Index page */
+
+.info-ethos {
+    list-style-type: none;
+}
+
+
 /* Carousel adjustments */
 
 
@@ -447,18 +527,6 @@ footer {
 
 .rights-link:hover {
     color: var(--shadow-color);
-}
-
-@media screen and (max-width: 460px) {
-    a .navbar-brand {
-        padding-right: 0;
-    }
-    .logo-svg {
-        display: none;
-    }
-    .navbar-brand {
-        margin: 0;
-    }
 }
 
 
@@ -557,9 +625,20 @@ footer {
     letter-spacing: 2px;
 }
 
+.link-container {
+    display: flex;
+    justify-content: center;
+}
+
 .contact-title {
+    font-size: 1.5rem;
     font-weight: 500;
     text-decoration: underline;
+}
+
+.contact-title:hover {
+    border-color: var(--shadow-color);
+    color: var(--shadow-color);
 }
 
 .contact-logo {
@@ -580,6 +659,7 @@ footer {
 
 .submit-button-2 {
     background-color: var(--shadow-color);
+    border: var(--shadow-color) 2px solid;
     color: #fff;
 }
 
@@ -587,6 +667,10 @@ footer {
     background-color: var(--secondary-color);
     border: var(--shadow-color) 2px solid;
     color: #000;
+}
+
+.file-upload-css {
+    padding-bottom: 1rem;
 }
 
 
