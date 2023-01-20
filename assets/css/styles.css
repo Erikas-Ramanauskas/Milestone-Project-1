@@ -100,15 +100,20 @@ a {
 
 header {
     clear: both;
-    background-image: url(../Images/Background-4.jpg);
+    background-image: url(../Images/Background-4.1.jpg);
     background-size: cover;
     background-position: bottom;
     width: 100%;
 }
 
+.full-header {
+    height: 100vh;
+}
+
 .header-colour {
     background-image: linear-gradient(rgba(0, 0, 0, 0), var(--shade-color));
     padding: 20px;
+    height: 100%;
 }
 
 .navbar-brand {
@@ -467,14 +472,15 @@ li {
     border-radius: 10px;
 }
 
-.carousel-caption h5,
+.carousel-caption h4,
 .review-description,
 .review-name {
     letter-spacing: 2px;
 }
 
-h5 {
+h4 {
     font-style: bold;
+    font-size: 1.25rem;
 }
 
 .carousel-caption {
