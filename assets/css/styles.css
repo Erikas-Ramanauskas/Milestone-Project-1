@@ -102,6 +102,7 @@ header {
   width: 100%;
 }
 
+/* Full header class applied to hero image on home page only then hero immage is used across all pages but only part of it seen */
 .full-header {
   height: 100vh;
 }
@@ -114,11 +115,7 @@ header {
   flex-direction: column;
 }
 
-.navbar-brand {
-  margin: 0 20px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
+/* home page header details */
 
 h1 {
   font-family: "Archivo", sans-serif;
@@ -149,13 +146,19 @@ h1 {
   border: var(--shadow-color) solid 1px;
 }
 
+/* Navigation bar styling */
+
+.navbar-brand {
+  margin: 0 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 .navbar-collapse,
 ul,
 li {
   margin-bottom: 0;
 }
-
-/* Navigation bar styling */
 
 .navbar-nav,
 .nav-group {
@@ -229,6 +232,8 @@ li {
   display: flex;
   align-items: flex-end;
 }
+
+/* combination of both of flex 0.9 and flex 1 helps with hero outer staying at the botom of header and displaying properly on different screens */
 
 .hero-inner {
   background-color: var(--third-color);
@@ -386,8 +391,8 @@ li {
     fill: none;
   }
   80% {
-    /* stroke-dashoffset: 0; */
-    fill: rgba(175, 175, 175, 0);
+    /* at this point the lines are drawn and colour fill can be done, hoever without baground color initialy the fill animation is instant. */
+    fill: rgba(255, 255, 255, 0);
   }
   100% {
     fill: rgb(188, 188, 188);
@@ -462,7 +467,6 @@ h4 {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   filter: brightness(0) saturate(0);
-  /* I randomly tested many properties before finding out i can scale the size of the icon. */
   scale: 150%;
 }
 

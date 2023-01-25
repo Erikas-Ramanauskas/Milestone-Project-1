@@ -4,7 +4,7 @@
 
 This is a website for "Brick by brick" bricklyer company. It is created to be responsible on all range of devices informing any visitor of hat the companies services and goals are as well as helping to find new clients
 
-<h2 align="center"><img src=""></h2>
+<h2 align="center"><img src="assets/Images/Read-me/Responsive-img.jpg"></h2>
 
 ## User Experience (UX)
 
@@ -61,23 +61,25 @@ Goal of each section is to answer main qestions:
     }
     ```
 
+    <h2 align="center"><img src="assets/Images/Read-me/Main-colors.jpg"></h2>
+
     I used variables to allow me in a future to change colours or add dark mode or other themes to the website. The text is made of white colour mostly with added dark shadow were the texts is directly on the picture for better visability.
 
 - #### Typography
 
   - I used mix of Roboto, Saira and Archivo fonts
 
-Roboto is a main font i used for for larger pieces of text. for main section as well as about us section
+1. Roboto is a main font i used for for larger pieces of text. for main section as well as about us section
 
-Saira was used for contact details in a navigation bar
+2. Saira was used for contact details in a navigation bar
 
-Archivo was kept for Navigation links, Contact details and Headers.
+3. Archivo was kept for Navigation links, Contact details and Headers.
 
 - #### Imagery
 
 - Head image is chosen to be a clear indication for what is the company about. It is full screen on every device and only covered by navigation bar and Hero-outer that are also semi transperant. It is also made to be responsive and hide a parts of picture depending on a screen size yet keaping the main part of the picture (Hand with a brick) centered
 
-- All other Immagery is chosen real projects done by the company.
+- All other Immagery is chosen real projects done by the company to represent realist worksdone.
 
 * ### Wireframes
 
@@ -165,29 +167,64 @@ The website is combined of 4 pages: Home, About us, Galery and Contact us pages.
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+- The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 - [W3C Markup Validator](https://validator.w3.org/) - [Results](https://github.com/)
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](https://github.com/)
 
-Additionaly tested the website on chrome lighthouse to ensure that 4 categories: Performance, Accessibility, Best practices and SEO are to highest Standarts.
+- Additionaly tested the website on chrome lighthouse to ensure that 4 categories: Performance, Accessibility, Best practices and SEO are to highest Standarts.
 
 Test were done for all 4 pages using mobile set up:
 
-<h2 align="center"><img src=""></h2>
+1. Home page:
+<h2 align="center"><img src="assets/Images/Read-me/Home-Lighthouse-test.jpg"></h2>
+
+2. About-us page:
+<h2 align="center"><img src="assets/Images/Read-me/About-us-Lighthouse-test.jpg"></h2>
+
+3. Galery page:
+<h2 align="center"><img src="assets/Images/Read-me/Galery-Lighthouse-test.jpg"></h2>
+
+4. Contact page:
+<h2 align="center"><img src="assets/Images/Read-me/Contact-Lighthouse-test.jpg"></h2>
 
 - [Chrome Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)- [Results](https://github.com/)
 
 ### Further Testing
 
-- The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-- The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
-- A large amount of testing was done to ensure that all pages were linking correctly.
+- The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge, Firefox and Safari browsers.
+
+- The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 12, iPhone 14 ProMax & Sony Xperia 5
+
+- All the links were tested multiple times duiring the coading and final testign once project is completed. All navigation links open up within same window. All external links opens a new window (Including: Contact details in the navigation nar and on the contact page, as well as social media links)
+
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+### Solved Bugs
+
+1. Navigation bar would go out of screen when testign on the smaller devices when i introduced phone and email in to it. The workaround is that i split both navigation meniu and contacts in to separate unordered lists as child elements of biger unordered list. Thsi ay i managed to place these groups in 2 lines when smaller screens are introduced (tablets and such) and once it goes to even smaller screen everythign woudl go to hamburger.
+
+2. solving first problem i coused a bug that made navigation bar hamburger on small screens to be opened once you first load the pages. This was solved by adding back "collapse" class next to "navbar-collapse"
+
+3. There were multiple issues with screen sizes for all of main sections during the begining of coding. It took me some research and rewaching code institute lesons to learn proper use of "col" and "row" classes with inserted diferent breakpoints. Easiest was the galery as all control were done in "Row" class, unlike main page i controled responsivnes by manipulating "col" class
+
+4. Main page carousel Desription were overlaping on the smaller screen sizes, I have reduced a font for smaller screen size and hiden part of the text by leaving Main title and reference.
+
+5. With a form i have made a mistake by not puting "name" tag and it was not capturintg data corectly missing on email and full name.
+
+6. One of the bugs i recieved help with from my mentor that i was pathing my immages wrong using CSS backgroudn immage property and not adding .. to return to images folder since the CSS file was placed in a different folder compared to html. This coused hero image not beign visable.
 
 ### Known Bugs
 
-- Once opened on smaller devices the hamburger Menu opens automaticaly
+- Galery section when hovering mouse over or clicking with touchpad during animation for a spit second botom part of the picture corners loses radius around. This is due to another div apearing on top and slidign from the botom that later aling with main div. Anyone i tested out and asked even to look for the issue did not notice this. Yet i could not find a soliution around it apart simply removing border radious entirely.
+
+### Posible Improvements
+
+- Main page carousel buttons are hard to adjust, which i would like to make them thicker. In a future ith enough knoweladge i would make a carousel that i have a bit more control over.
+
+- I would like galery pictures to be click-able to expand full size or around 90% and being able to flick though as a carousel.
+
+- Additionaly "Blog" section could be added to add customer user stories with before and after pictures.
 
 ## Deployment
 
@@ -241,7 +278,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Prior to the course
 
-- Prior to the course i was self learning HTML, CSS and Javascript from multiple sources thus i had some basic knoweladge and references to different websites or sources for a different ideas of the project that i will mention below.
+- Prior to the course i was self learning HTML, CSS and Javascript from multiple sources thus i had some basic knoweladge and references to different websites or sources for a different ideas for the project that i will mention below.
 
 ### Code
 
@@ -261,9 +298,13 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 - Google maps was a simple copy paste code from [Google maps](https://www.google.com/maps) website by searching for address then having option to press buton "Share", which led to "Embed a map" were the code is found and coudl be copy pasted
 
+- Responsivnes for Google maps Iframe was solved using [5 Ways To Add Responsive Google Maps To Your Website](https://blog.duda.co/responsive-google-maps-for-your-website) blog.
+
 - Hamburger button effect was made using [This video](https://www.youtube.com/watch?v=vJ85fm4m7lw).
 
 - Navigation link hover effect idea come from [This video](https://www.youtube.com/watch?v=aswRKAjjWuE)
+
+- Svg colour change from carousel adjustment I found [on this blog](https://css-tricks.com/almanac/properties/f/filter/)
 
 ### Content
 

@@ -157,6 +157,7 @@
                   type="text"
                   class="form-control form-2-style"
                   id="floatingFullName"
+                  name="fullName"
                   placeholder="Full Name"
                   required
                 />
@@ -167,6 +168,7 @@
                   type="email"
                   class="form-control form-2-style"
                   id="floatingEmail"
+                  name="email"
                   placeholder="name@example.com"
                   required
                 />
@@ -179,7 +181,7 @@
                   class="form-control form-2-style"
                   id="floatingPhone"
                   name="phone"
-                  pattern="[0-9]{3,4}-[0-9]{3,4}-[0-9]{4}"
+                  pattern="[0-9]{10,13}"
                   placeholder="07123456789"
                   required
                 />
@@ -199,7 +201,7 @@
                   accept=".doc, .docx, .xml, .pdf, .png, .jpg, .jpeg"
                 />
               </div>
-              <button type="button" class="btn submit-button-2">Submit Request</button>
+              <button type="submit" class="btn submit-button-2">Submit Request</button>
             </form>
           </div>
           <div class="col-lg-5 map-container">
