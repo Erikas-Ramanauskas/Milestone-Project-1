@@ -172,7 +172,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 Additionaly tested the website on chrome lighthouse to ensure that 4 categories: Performance, Accessibility, Best practices and SEO are to highest Standarts.
 
-Test were done for all 4 pages using mobile set up
+Test were done for all 4 pages using mobile set up:
+
+<h2 align="center"><img src=""></h2>
 
 - [Chrome Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)- [Results](https://github.com/)
 

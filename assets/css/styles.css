@@ -652,14 +652,30 @@ footer {
 /* Google maps modifications */
 
 .map-container {
+  overflow: hidden;
+  padding-bottom: 35%;
   position: relative;
-  height: 450px;
+  height: 0;
 }
 
-.google-map {
-  position: absolute;
-  width: 100%;
+.map-container iframe {
+  left: 0;
+  top: 0;
   height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+@media screen and (max-width: 1400px) {
+  .map-container {
+    padding-bottom: 40%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .map-container {
+    padding-bottom: 75%;
+  }
 }
 
 /* -------------------------------------------------- */
