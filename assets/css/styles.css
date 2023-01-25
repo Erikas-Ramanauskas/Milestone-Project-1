@@ -1,12 +1,11 @@
 @charset "utf-8";
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
-
 
 /* google fonts */
 
@@ -15,763 +14,726 @@
 /* primary colors and sections */
 
 :root {
-    --primary-color: rgb(242, 211, 172);
-    --secondary-color: rgb(166, 119, 78);
-    --third-color: rgba(89, 64, 54, 0.5);
-    --shade-color: rgb(191, 146, 120);
-    --shadow-color: rgb(38, 30, 27);
+  --primary-color: rgb(242, 211, 172);
+  --secondary-color: rgb(166, 119, 78);
+  --third-color: rgba(89, 64, 54, 0.5);
+  --shade-color: rgb(191, 146, 120);
+  --shadow-color: rgb(38, 30, 27);
 }
 
 main {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
-
 
 /* modify teaxtera */
 
 #floatingTextarea {
-    height: 130px;
+  height: 130px;
 }
 
 body {
-    background-color: var(--shade-color);
+  background-color: var(--shade-color);
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .darker-background {
-    background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
 .header-2 {
-    display: inline-block;
-    text-align: center;
-    font-family: "Archivo", sans-serif;
-    font-weight: 500;
-    letter-spacing: 2px;
-    color: #fff;
-    margin-top: 3rem;
-    margin-bottom: 2.5rem;
-    border-bottom: #fff 3px solid;
+  display: inline-block;
+  text-align: center;
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #fff;
+  margin-top: 3rem;
+  margin-bottom: 2.5rem;
+  border-bottom: #fff 3px solid;
 }
-
 
 /*  Main section */
 
 .main-text {
-    background-color: var(--third-color);
-    border-radius: 1rem;
-    padding: 2rem 2rem;
-    color: white;
+  background-color: var(--third-color);
+  border-radius: 1rem;
+  padding: 2rem 2rem;
+  color: white;
 }
 
 .main-text p,
 .main-text ul {
-    font-size: 1.2rem;
-    letter-spacing: 1.5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
 }
 
 .main-image {
-    padding-top: 1rem;
-    border-radius: 1rem;
-    display: flex;
-    justify-content: flex-end;
+  padding-top: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .main-padding {
-    padding: 2rem 0;
+  padding: 2rem 0;
 }
 
 .main-section-img {
-    box-shadow: -1rem -1rem var(--third-color);
-    width: 98%;
-    height: 98%;
-    object-fit: cover;
-    border-radius: 1rem;
+  box-shadow: -1rem -1rem var(--third-color);
+  width: 98%;
+  height: 98%;
+  object-fit: cover;
+  border-radius: 1rem;
 }
 
-
 /* -------------------------------------------- */
-
 
 /* Header */
 
 header {
-    clear: both;
-    background-image: url(../Images/Background-4.1.jpg);
-    background-size: cover;
-    background-position: bottom;
-    width: 100%;
+  clear: both;
+  background-image: url(../Images/Background-4.1.jpg);
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
 }
 
 .full-header {
-    height: 100vh;
+  height: 100vh;
 }
 
 .header-colour {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), var(--shade-color));
-    padding: 20px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), var(--shade-color));
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar-brand {
-    margin: 0 20px;
-    text-transform: uppercase;
-    font-weight: bold;
+  margin: 0 20px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 h1 {
-    font-family: "Archivo", sans-serif;
-    text-transform: uppercase;
-    font-size: 1.75rem;
-    font-weight: 600;
-    letter-spacing: 3px;
+  font-family: "Archivo", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: 3px;
 }
 
 .button-position {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .btn-request-quote {
-    padding: 9px 14px;
-    border-radius: 10px;
-    font-weight: bold;
-    letter-spacing: 1.5px;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    background-color: var(--shadow-color);
-    border: var(--shadow-color) solid 1px;
+  padding: 9px 14px;
+  border-radius: 10px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: var(--shadow-color);
+  border: var(--shadow-color) solid 1px;
 }
 
 .btn-request-quote:hover {
-    background-color: var(--shade-color);
-    border: var(--shadow-color) solid 1px;
+  background-color: var(--shade-color);
+  border: var(--shadow-color) solid 1px;
 }
 
 .navbar-collapse,
 ul,
 li {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
-
 
 /* Navigation bar styling */
 
 .navbar-nav,
 .nav-group {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .navbar {
-    background-color: var(--third-color);
-    border-radius: 10px;
+  background-color: var(--third-color);
+  border-radius: 10px;
 }
 
 .navbar .navbar-brand,
 .navbar .nav-link {
-    color: white;
-    font-size: 1.12rem;
-    letter-spacing: 2px;
-    text-shadow: 1.5px 1.5px 3px #000000;
-    float: right;
-    margin-right: 10px;
-    font-family: "Archivo", sans-serif;
-    white-space: nowrap;
+  color: white;
+  font-size: 1.12rem;
+  letter-spacing: 2px;
+  text-shadow: 1.5px 1.5px 3px #000000;
+  float: right;
+  margin-right: 10px;
+  font-family: "Archivo", sans-serif;
+  white-space: nowrap;
 }
 
-.navbar .contact {
-    font-family: "Saira", sans-serif;
+.contact {
+  font-family: "Saira", sans-serif;
 }
 
 .nav-link {
-    display: inline-block;
-    position: relative;
-    color: #fff;
+  display: inline-block;
+  position: relative;
+  color: #fff;
 }
 
 .nav-group-inline {
-    display: inline-block;
+  display: inline-block;
 }
 
 .nav-link::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #fff;
-    transform-origin: bottom left;
-    transition: transform 0.4s ease-out;
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform-origin: bottom left;
+  transition: transform 0.4s ease-out;
 }
 
 .nav-link:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom right;
+  transform: scaleX(1);
+  transform-origin: bottom right;
 }
 
 .navbar-nav .nav-link.active {
-    font-weight: 600;
-    color: rgb(204, 203, 203);
-    border-bottom: 1px rgb(225, 225, 225) solid;
+  font-weight: 600;
+  color: rgb(204, 203, 203);
+  border-bottom: 1px rgb(225, 225, 225) solid;
 }
-
 
 /* Hero box styling*/
 
 .hero-outer-1 {
-    flex: 0.9;
-    display: flex;
+  flex: 0.9;
+  display: flex;
 }
 
 .hero-outer-2 {
-    flex: 1;
-    display: flex;
-    align-items: flex-end;
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
 }
 
 .hero-inner {
-    background-color: var(--third-color);
-    border-radius: 10px;
-    color: white;
-    padding: 30px 30px;
-    text-shadow: 2px 2px 4px #000000;
-    text-align: center;
+  background-color: var(--third-color);
+  border-radius: 10px;
+  color: white;
+  padding: 30px 30px;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
 }
 
 .top-text {
-    font-size: 1.25rem;
-    text-transform: uppercase;
-    word-spacing: 3px;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  word-spacing: 3px;
 }
-
 
 /* Modal Styling */
 
 .modal-content,
 .form-1-style {
-    background-color: var(--shadow-color);
+  background-color: var(--shadow-color);
 }
 
 .form-1-style {
-    color: #fff;
+  color: #fff;
 }
 
 .form-1-style:focus {
-    background-color: var(--third-color);
-    color: #fff;
+  background-color: var(--third-color);
+  color: #fff;
 }
 
 .btn-close-modal,
 .btn-submit-modal {
-    padding: 6px 14px;
-    border-radius: 10px;
-    letter-spacing: 1.5px;
-    color: rgb(255, 255, 255);
+  padding: 6px 14px;
+  border-radius: 10px;
+  letter-spacing: 1.5px;
+  color: rgb(255, 255, 255);
 }
 
 .btn-close-modal {
-    background-color: var(--third-color);
-    border: var(--third-color) solid 1px;
+  background-color: var(--third-color);
+  border: var(--third-color) solid 1px;
 }
 
 .btn-close-modal:hover {
-    background-color: rgb(210, 143, 10);
+  background-color: rgb(210, 143, 10);
 }
 
 .btn-submit-modal {
-    background-color: var(--secondary-color);
-    border: var(--secondary-color) solid 1px;
+  background-color: var(--secondary-color);
+  border: var(--secondary-color) solid 1px;
 }
 
 .btn-submit-modal:hover {
-    background-color: var(--primary-color);
-    color: #000;
+  background-color: var(--primary-color);
+  color: #000;
 }
 
-
 /* Hamburger animation css (Start)*/
-
 
 /* ------------------------------------------------------- */
 
 .navbar-toggler {
-    border: 0 !important;
+  border: 0 !important;
 }
 
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
-    outline: none !important;
-    box-shadow: none !important;
-    border: 0 !important;
+  outline: none !important;
+  box-shadow: none !important;
+  border: 0 !important;
 }
-
 
 /* Lines of the Toggler */
 
 .toggler-icon {
-    width: 30px;
-    height: 3px;
-    background-color: #ffffff;
-    display: block;
-    transition: all 0.2s;
+  width: 30px;
+  height: 3px;
+  background-color: #ffffff;
+  display: block;
+  transition: all 0.2s;
 }
-
 
 /* Adds Space between the lines */
 
 .middle-bar {
-    margin: 5px auto;
+  margin: 5px auto;
 }
 
 .toggler-icon {
-    margin: 5.5px;
+  margin: 5.5px;
 }
-
 
 /* State when navbar is opened (START) */
 
 .navbar-toggler .top-bar {
-    transform: rotate(45deg);
-    transform-origin: 10% 10%;
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
 }
 
 .navbar-toggler .middle-bar {
-    opacity: 0;
+  opacity: 0;
 }
 
 .navbar-toggler .bottom-bar {
-    transform: rotate(-45deg);
-    transform-origin: 10% 90%;
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
 }
 
-
 /* State when navbar is opened (END) */
-
 
 /* State when navbar is collapsed (START) */
 
 .navbar-toggler.collapsed .top-bar {
-    transform: rotate(0);
+  transform: rotate(0);
 }
 
 .navbar-toggler.collapsed .middle-bar {
-    opacity: 1;
+  opacity: 1;
 }
 
 .navbar-toggler.collapsed .bottom-bar {
-    transform: rotate(0);
+  transform: rotate(0);
 }
-
 
 /* State when navbar is collapsed (END) */
 
-
 /* ------------------------------------------------------- */
 
-
 /* Logo styling  (Start)*/
-
 
 /* ------------------------------------------------------- */
 
 .logo-path {
-    width: 50%;
-    stroke-dashoffset: 12;
-    stroke-dasharray: 12;
-    fill: none;
-    stroke-width: 0.1;
-    stroke: rgb(255, 255, 255);
-    animation: logo-draw 3s linear forwards;
+  width: 50%;
+  stroke-dashoffset: 12;
+  stroke-dasharray: 12;
+  fill: none;
+  stroke-width: 0.1;
+  stroke: rgb(255, 255, 255);
+  animation: logo-draw 3s linear forwards;
 }
 
 .logo-svg {
-    width: calc(8.22px * 10);
-    height: calc(6.22px * 10);
+  width: calc(8.22px * 10);
+  height: calc(6.22px * 10);
 }
-
 
 /* Logo drawing keyframes */
 
 @keyframes logo-draw {
-    0% {
-        fill: none;
-    }
-    80% {
-        /* stroke-dashoffset: 0; */
-        fill: rgba(175, 175, 175, 0);
-    }
-    100% {
-        fill: rgb(188, 188, 188);
-        stroke-dashoffset: 0;
-    }
+  0% {
+    fill: none;
+  }
+  80% {
+    /* stroke-dashoffset: 0; */
+    fill: rgba(175, 175, 175, 0);
+  }
+  100% {
+    fill: rgb(188, 188, 188);
+    stroke-dashoffset: 0;
+  }
 }
 
 .brick4 {
-    animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
 
 .brick3 {
-    animation-delay: 0.6s;
+  animation-delay: 0.6s;
 }
 
 .brick2 {
-    animation-delay: 0.9s;
+  animation-delay: 0.9s;
 }
-
 
 /* ------------------------------------------------------- */
 
-
 /* Logo styling  (End)*/
-
 
 /* Index page */
 
 .info-ethos {
-    list-style-type: none;
+  list-style-type: none;
 }
 
-
 /* Carousel adjustments */
-
 
 /* -------------------------------------------------------*/
 
 .carousel-adjustments {
-    margin: 2rem;
+  margin: 2rem;
 }
 
 .central-header {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .carousel-item img {
-    border-radius: 2rem;
+  border-radius: 2rem;
 }
 
 .carousel-shadow {
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
 }
 
 .carousel-caption h4,
 .review-description,
 .review-name {
-    letter-spacing: 2px;
+  letter-spacing: 2px;
 }
 
 h4 {
-    font-style: bold;
-    font-size: 1.25rem;
+  font-style: bold;
+  font-size: 1.25rem;
 }
 
 .carousel-caption {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .review-name {
-    font-style: italic;
-    text-decoration: underline;
+  font-style: italic;
+  text-decoration: underline;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    filter: brightness(0) saturate(0);
-    /* I randomly tested many properties before finding out i can scale the size of the icon. */
-    scale: 150%;
+  filter: brightness(0) saturate(0);
+  /* I randomly tested many properties before finding out i can scale the size of the icon. */
+  scale: 150%;
 }
-
 
 /* ------------------------------Footer------------------------*/
 
 footer {
-    background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
 }
-
 
 /* ------------------------------------------------------- */
 
 .fa-brands {
-    border-radius: 30%;
-    background-color: var(--primary-color);
-    width: 3rem;
-    height: 3rem;
-    font-size: 2rem;
-    margin-top: 1rem;
-    color: var(--secondary-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
+  border-radius: 30%;
+  background-color: var(--primary-color);
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
+  margin-top: 1rem;
+  color: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
 }
 
 .fa-brands:hover {
-    color: var(--primary-color);
-    background-color: var(--shadow-color);
+  color: var(--primary-color);
+  background-color: var(--shadow-color);
 }
 
 .footer-rights {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .rights-link {
-    text-decoration: none;
-    color: var(--primary-color);
-    transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
 }
 
 .rights-link:hover {
-    color: var(--shadow-color);
+  color: var(--shadow-color);
 }
 
-
 /* -------------------------------------------------------- */
-
 
 /* Galery adjustments */
 
 .galery-images-list {
-    margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .galery-image {
-    width: 100%;
-    max-height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-    background-size: contain;
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  background-size: contain;
 }
-
 
 /* named card-no-bootstrap since there is card class in Botrap already and i  did not wanted to change natural settings for it. */
 
 .card-no-bs {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .card-description {
-    background: linear-gradient(rgba(121, 121, 121, 0), rgba(7, 7, 7, 0.782));
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
-    position: absolute;
-    min-height: 30%;
-    border-radius: 0 0 10px 10px;
-    bottom: 0px;
-    /*makes it stick to the bottom, without it it falls lower */
-    width: calc(100% - 24px);
-    /* bacause col class automaticaly has 12 pading on both sides it makes card-description class become bigger than immage and force it on the right instead of center. i would like to know other ways around this but best soliution i can think of is -24px to solve the problem.  */
-    visibility: hidden;
-    text-align: center;
-    opacity: 0;
-    transform: translateY(50px);
-    transition: visibility 0s, opacity 0.5s linear, transform 0.5s ease-in-out;
+  background: linear-gradient(rgba(121, 121, 121, 0), rgba(7, 7, 7, 0.782));
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  position: absolute;
+  min-height: 30%;
+  border-radius: 0 0 10px 10px;
+  bottom: 0px;
+  /*makes it stick to the bottom, without it it falls lower */
+  width: calc(100% - 24px);
+  /* bacause col class automaticaly has 12 pading on both sides it makes card-description class become bigger than immage and force it on the right instead of center. i would like to know other ways around this but best soliution i can think of is -24px to solve the problem.  */
+  visibility: hidden;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: visibility 0s, opacity 0.5s linear, transform 0.5s ease-in-out;
 }
 
 .location,
 .description {
-    width: 80%;
-    letter-spacing: 3px;
-    position: absolute;
-    left: 10%;
+  width: 80%;
+  letter-spacing: 3px;
+  position: absolute;
+  left: 10%;
 }
 
 .location {
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    border-bottom: solid 2px white;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  border-bottom: solid 2px white;
 }
 
 .description {
-    bottom: 0px;
-    padding-bottom: 10px;
+  bottom: 0px;
+  padding-bottom: 10px;
 }
-
 
 /* transform */
 
 .card-no-bs:hover .card-description {
-    visibility: visible;
-    opacity: 1;
-    transform: translateY(0);
-    transition: visibility 0s, opacity 0.5s linear, transform 0.5s ease-in-out;
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  transition: visibility 0s, opacity 0.5s linear, transform 0.5s ease-in-out;
 }
 
 .card-no-bs:hover {
-    transition: transform 0.5s ease-in-out;
-    transform: scale(1.05);
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.05);
 }
-
 
 /* -------------------------------------- */
 
-
 /* Contact us page */
-
 
 /* contact details */
 
 .contact-logo,
 .contact-title,
 .contact-detail {
-    text-align: center;
-    color: #fff;
-    font-family: "Archivo", sans-serif;
-    letter-spacing: 2px;
+  text-align: center;
+  color: #fff;
+  font-family: "Archivo", sans-serif;
+  letter-spacing: 2px;
 }
 
 .link-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .contact-title {
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-decoration: underline;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-decoration: underline;
 }
 
 .contact-title:hover {
-    border-color: var(--shadow-color);
-    color: var(--shadow-color);
+  border-color: var(--shadow-color);
+  color: var(--shadow-color);
 }
 
 .contact-logo {
-    font-size: 2rem;
+  font-size: 2rem;
 }
-
 
 /* Contact form */
 
 .form-2-style {
-    background-color: white;
+  background-color: white;
 }
 
 .form-2-style:focus {
-    background-color: var(--primary-color);
-    color: #000;
+  background-color: var(--primary-color);
+  color: #000;
 }
 
 .submit-button-2 {
-    background-color: var(--shadow-color);
-    border: var(--shadow-color) 2px solid;
-    color: #fff;
+  background-color: var(--shadow-color);
+  border: var(--shadow-color) 2px solid;
+  color: #fff;
 }
 
 .submit-button-2:hover {
-    background-color: var(--secondary-color);
-    border: var(--shadow-color) 2px solid;
-    color: #000;
+  background-color: var(--secondary-color);
+  border: var(--shadow-color) 2px solid;
+  color: #000;
 }
 
 .file-upload-css {
-    padding-bottom: 1rem;
+  padding-bottom: 1rem;
 }
-
 
 /* Google maps modifications */
 
 .map-container {
-    position: relative;
-    height: 450px;
+  position: relative;
+  height: 450px;
 }
 
 .google-map {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
-
 /* -------------------------------------------------- */
-
 
 /* About us Section */
 
 .about-us-main {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
 }
 
 .card {
-    border: 1px var(--secondary-color) solid;
-    font-family: "Roboto", sans-serif;
-    color: #fff;
+  border: 1px var(--secondary-color) solid;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
 }
 
 .card-body {
-    background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
 .card-title {
-    font-size: 1.2rem;
-    font-weight: 600;
-    letter-spacing: 0.1rem;
-    padding-left: 10px;
-    min-width: 50%;
-    display: inline-block;
-    border-bottom: #fff solid 2px;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-    /* border: red solid 1px; */
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  padding-left: 10px;
+  min-width: 50%;
+  display: inline-block;
+  border-bottom: #fff solid 2px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  /* border: red solid 1px; */
 }
 
 .card-text {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
-
 /* media quaries */
-
 
 /* ------------------------------------------------------------- */
 
 @media screen and (max-width: 460px) {
-    a .navbar-brand {
-        padding-right: 0;
-    }
-    .logo-svg {
-        display: none;
-    }
-    .navbar-brand {
-        margin: 0;
-    }
+  a .navbar-brand {
+    padding-right: 0;
+  }
+  .logo-svg {
+    display: none;
+  }
+  .navbar-brand {
+    margin: 0;
+  }
 }
 
 @media screen and (max-width: 1276px) {
-    .nav-group-inline {
-        display: block;
-    }
+  .nav-group-inline {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 350px) {
-    .navbar .navbar-brand,
-    .navbar .nav-link {
-        font-size: 0.9rem;
-        letter-spacing: 1px;
-        margin: 0;
-    }
-    .contact-icons {
-        display: none;
-    }
-    h1 {
-        font-size: 1.2rem;
-    }
-    .top-text {
-        font-size: 0.9rem;
-    }
+  .navbar .navbar-brand,
+  .navbar .nav-link {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin: 0;
+  }
+  .contact-icons {
+    display: none;
+  }
+  h1 {
+    font-size: 1.2rem;
+  }
+  .top-text {
+    font-size: 0.9rem;
+  }
 }
