@@ -6,6 +6,48 @@ This is a website for "Brick by brick" bricklyer company. It is created to be re
 
 <h2 align="center"><img src="assets/Images/Read-me/Responsive-img.jpg"></h2>
 
+## CONTENTS
+
+- [User Experience](#user-experience)
+
+  - [Main idea](#main-idea)
+  - [User stories](#user-stories)
+    - [First Time Visitor Goals](#first-time-visitor-goals)
+    - [Returning Visitor Goals](#returning-visitor-goals)
+    - [Frequent User Goals](#frequent-user-goals)
+
+- [Design](#design)
+  - [Colour Scheme](#colour-scheme)
+  - [Typography](#typography)
+  - [Imagery](#imagery)
+  - [Tables](#tables)
+  - [Imagery](#imagery)
+- [Wireframes](#wireframes)
+- [Features](#features)
+  - [Header / Footer](#header-/-footer)
+  - [Home page](#home-page)
+  - [About us page](#about-us-page)
+  - [Galery page](#galery-page)
+  - [Contact page](#contact-page)
+- [Technologies Used](#technologies-used)
+  - [Languages Used](#languages-used)
+  - [Frameworks, Libraries & Programs Used](#frameworks,-libraries-&-programs-used)
+- [Testing](#testing)
+  - [Further Testing](#further-testing)
+  - [Solved Bugs](#solved-bugs)
+  - [Known Bugs](#known-bugs)
+- [Posible Improvements](#posible-improvements)
+- [Deployment](#deployment)
+  - [GitHub Pages](#github-pages)
+  - [Forking the GitHub Repository](#forking-the-github-repository)
+  - [Making a Local Clone](#making-a-local-clone)
+- [Credits](#credits)
+  - [Prior to the course](#prior-to-the-course)
+  - [Code](#code)
+  - [Content](#content)
+  - [Media](#media)
+  - [Acknowledgements](#acknowledgements)
+
 ## User Experience (UX)
 
 - ### Main idea
@@ -22,58 +64,58 @@ Goal of each section is to answer main qestions:
 
 - ### User stories
 
-  - #### First Time Visitor Goals
+- #### First Time Visitor Goals
 
-    1. Understand clearly hat the site is representing and able to offer.
-    2. Quickly find out what the team can offer.
-    3. Have multiple clear ways to contact the team.
-    4. Accses clear vissable review section
+1. Understand clearly hat the site is representing and able to offer.
+2. Quickly find out what the team can offer.
+3. Have multiple clear ways to contact the team.
+4. Accses clear vissable review section
 
-  - #### Returning Visitor Goals
+- #### Returning Visitor Goals
 
-    1. I want to find out were are their based and visit their showroom
-    2. Have easy and clear acsess to get more information about their past projects
-    3. I want to find social media links
+1. I want to find out were are their based and visit their showroom
+2. Have easy and clear acsess to get more information about their past projects
+3. I want to find social media links
 
-  - #### Frequent User Goals
+- #### Frequent User Goals
 
-    - Fequent users would be a contractors who works with developemtns on daily basis and they would be recomending the company to regular clients. Main purpose is to have clear Contact section
+- Fequent users would be a contractors who works with developemtns on daily basis and they would be recomending the company to regular clients. Main purpose is to have clear Contact section
 
-  1.  Easy acsess to teams perofile and what they did in the past.
-  2.  Clear contact details and the form to fill in.
-  3.  Check up with Brick by Brick owners and have their projects added to a galery.
+1.  Easy acsess to teams perofile and what they did in the past.
+2.  Clear contact details and the form to fill in.
+3.  Check up with Brick by Brick owners and have their projects added to a galery.
 
 ## Design
 
 - ### Colour Scheme
 
-  - 5 main colours used were created using [Adobe Color](https://color.adobe.com/create/color-wheel).
+- 5 main colours used were created using [Adobe Color](https://color.adobe.com/create/color-wheel).
 
-  I used several brick pictures and played diferent shades to get few darker colours that landed me on the fallowing list:
+I used several brick pictures and played diferent shades to get few darker colours that landed me on the fallowing list:
 
-  ```CSS
-  :root {
-  --primary-color: rgb(242, 211, 172);
-  --secondary-color: rgb(166, 119, 78);
-  --third-color: rgba(89, 64, 54, 0.5);
-  --shade-color: rgb(191, 146, 120);
-  --shadow-color: rgb(38, 30, 27);
-  }
-  ```
+```CSS
+:root {
+--primary-color: rgb(242, 211, 172);
+--secondary-color: rgb(166, 119, 78);
+--third-color: rgba(89, 64, 54, 0.5);
+--shade-color: rgb(191, 146, 120);
+--shadow-color: rgb(38, 30, 27);
+}
+```
 
   <h2 align="center"><img src="assets/Images/Read-me/Main-colors.jpg"></h2>
 
-  I used variables to allow me in a future to change colours or add dark mode or other themes to the website. The text is made of white colour mostly with added dark shadow were the texts is directly on the picture for better visability.
+I used variables to allow me in a future to change colours or add dark mode or other themes to the website. The text is made of white colour mostly with added dark shadow were the texts is directly on the picture for better visability.
 
 - ### Typography
 
 - I used mix of Roboto, Saira and Archivo fonts
 
-1. Roboto is a main font i used for for larger pieces of text. for main section as well as about us section
+1.  Roboto is a main font i used for for larger pieces of text. for main section as well as about us section
 
-2. Saira was used for contact details in a navigation bar
+2.  Saira was used for contact details in a navigation bar
 
-3. Archivo was kept for Navigation links, Contact details and Headers
+3.  Archivo was kept for Navigation links, Contact details and Headers
 
 - ### Imagery
 
@@ -81,17 +123,17 @@ Goal of each section is to answer main qestions:
 
 - All other Immagery is chosen real projects done by the company to represent realist worksdone.
 
-* ### Wireframes
+## Wireframes
 
-  - Home Page mobile - [View](assets/Images/Read-me/Iphone-2012.png)
+- Home Page mobile - [View](assets/Images/Read-me/Iphone-2012.png)
 
-  - Home Page tablet - [View](assets/Images/Read-me/Ipad-20air.png.png)
+- Home Page tablet - [View](assets/Images/Read-me/Ipad-20air.png.png)
 
-  - Home Page desktop - [View](assets/Images/Read-me/21-inch-screen.png)
+- Home Page desktop - [View](assets/Images/Read-me/21-inch-screen.png)
 
 ## Features
 
-The website is combined of 4 pages: Home, About us, Galery and Contact us pages.
+- The website is combined of 4 pages: Home, About us, Galery and Contact us pages.
 
 - ### Header / Footer
 
@@ -113,8 +155,7 @@ The website is combined of 4 pages: Home, About us, Galery and Contact us pages.
 
 - ### Galery page
 
-- Galery is consisting of responsive picture layout of Companies works.
-  It is designed with intent that with smaller screen sizes less of pictures are added per row and more pictures when screen sizes gets bigger.
+- Galery is consisting of responsive picture layout of Companies works. It is designed with intent that with smaller screen sizes less of pictures are added per row and more pictures when screen sizes gets bigger.
 
 - Additionaly user can scrol their mouse on each picture to have animation reveling the general lociation and the project done for that particular picture.For phones and tables this is done with a click on the picture
 
@@ -175,16 +216,16 @@ The website is combined of 4 pages: Home, About us, Galery and Contact us pages.
 
 Test were done for all 4 pages using mobile set up:
 
-1. Home page:
+1.  Home page:
 <h2 align="center"><img src="assets/Images/Read-me/Home-Lighthouse-test.jpg"></h2>
 
-2. About-us page:
+2.  About-us page:
 <h2 align="center"><img src="assets/Images/Read-me/About-us-Lighthouse-test.jpg"></h2>
 
-3. Galery page:
+3.  Galery page:
 <h2 align="center"><img src="assets/Images/Read-me/Galery-Lighthouse-test.jpg"></h2>
 
-4. Contact page:
+4.  Contact page:
 <h2 align="center"><img src="assets/Images/Read-me/Contact-Lighthouse-test.jpg"></h2>
 
 - [Chrome Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)- [Results](https://github.com/)
@@ -201,23 +242,23 @@ Test were done for all 4 pages using mobile set up:
 
 ### Solved Bugs
 
-1. Navigation bar would go out of screen when testign on the smaller devices when i introduced phone and email in to it. The workaround is that i split both navigation meniu and contacts in to separate unordered lists as child elements of biger unordered list. Thsi ay i managed to place these groups in 2 lines when smaller screens are introduced (tablets and such) and once it goes to even smaller screen everythign woudl go to hamburger.
+1.  Navigation bar would go out of screen when testign on the smaller devices when i introduced phone and email in to it. The workaround is that i split both navigation meniu and contacts in to separate unordered lists as child elements of biger unordered list. Thsi ay i managed to place these groups in 2 lines when smaller screens are introduced (tablets and such) and once it goes to even smaller screen everythign woudl go to hamburger.
 
-2. solving first problem i coused a bug that made navigation bar hamburger on small screens to be opened once you first load the pages. This was solved by adding back "collapse" class next to "navbar-collapse"
+2.  solving first problem i coused a bug that made navigation bar hamburger on small screens to be opened once you first load the pages. This was solved by adding back "collapse" class next to "navbar-collapse"
 
-3. There were multiple issues with screen sizes for all of main sections during the begining of coding. It took me some research and rewaching code institute lesons to learn proper use of "col" and "row" classes with inserted diferent breakpoints. Easiest was the galery as all control were done in "Row" class, unlike main page i controled responsivnes by manipulating "col" class
+3.  There were multiple issues with screen sizes for all of main sections during the begining of coding. It took me some research and rewaching code institute lesons to learn proper use of "col" and "row" classes with inserted diferent breakpoints. Easiest was the galery as all control were done in "Row" class, unlike main page i controled responsivnes by manipulating "col" class
 
-4. Main page carousel Desription were overlaping on the smaller screen sizes, I have reduced a font for smaller screen size and hiden part of the text by leaving Main title and reference.
+4.  Main page carousel Desription were overlaping on the smaller screen sizes, I have reduced a font for smaller screen size and hiden part of the text by leaving Main title and reference.
 
-5. With a form i have made a mistake by not puting "name" tag and it was not capturintg data corectly missing on email and full name.
+5.  With a form i have made a mistake by not puting "name" tag and it was not capturintg data corectly missing on email and full name.
 
-6. One of the bugs i recieved help with from my mentor that i was pathing my immages wrong using CSS backgroudn immage property and not adding .. to return to images folder since the CSS file was placed in a different folder compared to html. This coused hero image not beign visable.
+6.  One of the bugs i recieved help with from my mentor that i was pathing my immages wrong using CSS backgroudn immage property and not adding .. to return to images folder since the CSS file was placed in a different folder compared to html. This coused hero image not beign visable.
 
 ### Known Bugs
 
 - Galery section: when hovering mouse over or clicking with touchpad during animation for a spit second botom part of the picture corners loses radius around. This is due to another div apearing on top and slidign from the botom that later aling with main div. Anyone i tested out and asked even to look for the issue did not notice this. Yet i could not find a soliution around it apart simply removing border radious entirely.
 
-### Posible Improvements
+## Posible Improvements
 
 - Main page carousel buttons are hard to adjust, which i would like to make them thicker. In a future ith enough knoweladge i would make a carousel that i have a bit more control over.
 
@@ -231,36 +272,38 @@ Test were done for all 4 pages using mobile set up:
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Erikas-Ramanauskas/Milestone-Project-1)
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-   - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
-3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4. Under "Source", click the dropdown called "None" and select "Master Branch".
-5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://erikas-ramanauskas.github.io/Milestone-Project-1/) in the "GitHub Pages" section.
+1.  Log in to GitHub and locate the [GitHub Repository](https://github.com/Erikas-Ramanauskas/Milestone-Project-1)
+2.  At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+
+- Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+
+3.  Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4.  Under "Source", click the dropdown called "None" and select "Master Branch".
+5.  The page will automatically refresh.
+6.  Scroll back down through the page to locate the now published site [link](https://erikas-ramanauskas.github.io/Milestone-Project-1/) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Erikas-Ramanauskas/Milestone-Project-1)
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-3. You should now have a copy of the original repository in your GitHub account.
+1.  Log in to GitHub and locate the [GitHub Repository](https://github.com/Erikas-Ramanauskas/Milestone-Project-1)
+2.  At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3.  You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Erikas-Ramanauskas/Milestone-Project-1)
-2. Under the repository name, click "Clone or download".
-3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-4. Open Git Bash
-5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type `git clone`, and then paste the URL you copied in Step 3.
+1.  Log in to GitHub and locate the [GitHub Repository](https://github.com/Erikas-Ramanauskas/Milestone-Project-1)
+2.  Under the repository name, click "Clone or download".
+3.  To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4.  Open Git Bash
+5.  Change the current working directory to the location where you want the cloned directory to be made.
+6.  Type `git clone`, and then paste the URL you copied in Step 3.
 
 ```
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
 
-7. Press Enter. Your local clone will be created.
+7.  Press Enter. Your local clone will be created.
 
 ```
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
