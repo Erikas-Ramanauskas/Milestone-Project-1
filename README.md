@@ -8,7 +8,7 @@ This is a website for "Brick by brick" bricklyer company. It is created to be re
 
 ## User Experience (UX)
 
-### Main idea
+- ### Main idea
 
 Brick By Brick is a website for team of bricklayers who specialises in brickwork based around London. The purpose of website is to inform of the services team provides as well as capture potential leads quickly.
 
@@ -43,39 +43,39 @@ Goal of each section is to answer main qestions:
   2.  Clear contact details and the form to fill in.
   3.  Check up with Brick by Brick owners and have their projects added to a galery.
 
-- ### Design
+## Design
 
-  - #### Colour Scheme
+- ### Colour Scheme
 
-    - 5 main colours used were created using [Adobe Color](https://color.adobe.com/create/color-wheel) website.
+  - 5 main colours used were created using [Adobe Color](https://color.adobe.com/create/color-wheel).
 
-    I used several brick pictures and played diferent shades to get few darker colours that landed me on the fallowing list:
+  I used several brick pictures and played diferent shades to get few darker colours that landed me on the fallowing list:
 
-    ```CSS
-    :root {
-    --primary-color: rgb(242, 211, 172);
-    --secondary-color: rgb(166, 119, 78);
-    --third-color: rgba(89, 64, 54, 0.5);
-    --shade-color: rgb(191, 146, 120);
-    --shadow-color: rgb(38, 30, 27);
-    }
-    ```
+  ```CSS
+  :root {
+  --primary-color: rgb(242, 211, 172);
+  --secondary-color: rgb(166, 119, 78);
+  --third-color: rgba(89, 64, 54, 0.5);
+  --shade-color: rgb(191, 146, 120);
+  --shadow-color: rgb(38, 30, 27);
+  }
+  ```
 
-    <h2 align="center"><img src="assets/Images/Read-me/Main-colors.jpg"></h2>
+  <h2 align="center"><img src="assets/Images/Read-me/Main-colors.jpg"></h2>
 
-    I used variables to allow me in a future to change colours or add dark mode or other themes to the website. The text is made of white colour mostly with added dark shadow were the texts is directly on the picture for better visability.
+  I used variables to allow me in a future to change colours or add dark mode or other themes to the website. The text is made of white colour mostly with added dark shadow were the texts is directly on the picture for better visability.
 
-- #### Typography
+- ### Typography
 
-  - I used mix of Roboto, Saira and Archivo fonts
+- I used mix of Roboto, Saira and Archivo fonts
 
 1. Roboto is a main font i used for for larger pieces of text. for main section as well as about us section
 
 2. Saira was used for contact details in a navigation bar
 
-3. Archivo was kept for Navigation links, Contact details and Headers.
+3. Archivo was kept for Navigation links, Contact details and Headers
 
-- #### Imagery
+- ### Imagery
 
 - Head image is chosen to be a clear indication for what is the company about. It is full screen on every device and only covered by navigation bar and Hero-outer that are also semi transperant. It is also made to be responsive and hide a parts of picture depending on a screen size yet keaping the main part of the picture (Hand with a brick) centered
 
@@ -83,17 +83,17 @@ Goal of each section is to answer main qestions:
 
 * ### Wireframes
 
-  - Home Page Wireframe - [View]()
+  - Home Page mobile - [View](assets/Images/Read-me/Iphone-2012.png)
 
-  - Mobile Wireframe - [View]()
+  - Home Page tablet - [View](assets/Images/Read-me/Ipad-20air.png.png)
 
-  - Contact Us Page Wireframe - [View]()
+  - Home Page desktop - [View](assets/Images/Read-me/21-inch-screen.png)
 
 ## Features
 
 The website is combined of 4 pages: Home, About us, Galery and Contact us pages.
 
-### Header / Footer
+- ### Header / Footer
 
 - All of pages contain same header and footer with navigation links. Apart Home one having extended header. I chose a picture that would not only clearly would represent exacly what the company/website is about but also would have clear brick contrast behind a navigation bar as a client browses to other pages. Additionaly the colours of the picture allowed me to blen it in with bacgroudn and other chosen colours.
 
@@ -101,24 +101,24 @@ The website is combined of 4 pages: Home, About us, Galery and Contact us pages.
 
 - Footer contains animation responsive 4 social media links for a visitor to visit if they wish to check social media of Brick by Brick.
 
-### Home page
+- ### Home page
 
 - Home page header picture is extended 100% screen size height and containing additional hero outer with quick catchy summary of what the company does with clear call to action button to fill in the form by the visitor.
 
 - The main section consist of 4 parts. Three parts briefly explaining what is a company about, what services do they offer and the last one is customer review carousel for visitors to view recomendations. I have alternated a background colours for each part to make them stand out from each other.
 
-### About us page
+- ### About us page
 
 - About us page consist of 2 parts. One is an explanation about general Brick by Brick team and the second is individual member profiles. Each profile is made in to a card with picture at the top and text below.
 
-### Galery page
+- ### Galery page
 
 - Galery is consisting of responsive picture layout of Companies works.
   It is designed with intent that with smaller screen sizes less of pictures are added per row and more pictures when screen sizes gets bigger.
 
 - Additionaly user can scrol their mouse on each picture to have animation reveling the general lociation and the project done for that particular picture.For phones and tables this is done with a click on the picture
 
-### Contact page
+- ### Contact page
 
 - contact page is designed for people who ould like to get a quotation or directly contact the company them selves.
 - With first section at the row having main ways to contact or visit including email, phone, and adress. For people who ould like to copy/paste the contact detail i left those unclickable, however the titles (Phone, Email, Lociation) are made with links and hover animation to allow both functionalities in a same section.
@@ -127,43 +127,42 @@ The website is combined of 4 pages: Home, About us, Galery and Contact us pages.
 
 - Lastly the google maps is added for people who would be looking to visit showroom
 
----
-
 ## Technologies Used
 
-### Languages Used
+- ### Languages Used
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-### Frameworks, Libraries & Programs Used
+- ### Frameworks, Libraries & Programs Used
 
-1. ## [Bootstrap 5.3:](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+1.  [Bootstrap 5.3:](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 
 - Used Botstrap to add resposivnes to a werbsite and making sure it looks good on all screen sizes.
 
-2. [Google Fonts:](https://fonts.google.com/)
+2.  [Google Fonts:](https://fonts.google.com/)
 
 - Used to add custom fonts to the website.
 
-3. [Font Awesome:](https://fontawesome.com/)
+3.  [Font Awesome:](https://fontawesome.com/)
 
 - Used to add custom icons to enhance user expirenece and navigation
 
-5. [Visual Studio Code](https://code.visualstudio.com/)
+5.  [Visual Studio Code](https://code.visualstudio.com/)
 
 - For mijority of programing and version control
 
-6. [Git](https://git-scm.com/)
+7.  [Git](https://git-scm.com/)
 
 - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
-7. [GitHub:](https://github.com/)
+8.  [GitHub:](https://github.com/)
 
 - Used to store and publish the project to web
 
-8. [Figma:](https://www.figma.com/)
-   - Figma was used to create the [wireframes](https://github.com/) during the design process.
+9.  [Figma:](https://www.figma.com/)
+
+- Figma was used to create the wireframes during the design process.
 
 ## Testing
 
@@ -192,7 +191,7 @@ Test were done for all 4 pages using mobile set up:
 
 ### Further Testing
 
-- The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge, Firefox and Safari browsers.
+- The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge, Firefox and Safari browsers on multiple computers.
 
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 12, iPhone 14 ProMax & Sony Xperia 5
 
@@ -216,7 +215,7 @@ Test were done for all 4 pages using mobile set up:
 
 ### Known Bugs
 
-- Galery section when hovering mouse over or clicking with touchpad during animation for a spit second botom part of the picture corners loses radius around. This is due to another div apearing on top and slidign from the botom that later aling with main div. Anyone i tested out and asked even to look for the issue did not notice this. Yet i could not find a soliution around it apart simply removing border radious entirely.
+- Galery section: when hovering mouse over or clicking with touchpad during animation for a spit second botom part of the picture corners loses radius around. This is due to another div apearing on top and slidign from the botom that later aling with main div. Anyone i tested out and asked even to look for the issue did not notice this. Yet i could not find a soliution around it apart simply removing border radious entirely.
 
 ### Posible Improvements
 
