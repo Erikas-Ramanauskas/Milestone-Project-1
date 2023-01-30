@@ -2,9 +2,11 @@
 
 [View the live project here.](https://erikas-ramanauskas.github.io/Milestone-Project-1/)
 
-This is a website for "Brick by brick" bricklyer company. It is created to be responsible on all range of devices informing any visitor of hat the companies services and goals are as well as helping to find new clients
+This is a website for the "Brick by brick" bricklayer company. It is created to be responsible on all range of devices informing any visitor of what the companies services and goals are as well as helping to find new clients
 
 <h2 align="center"><img src="assets/Images/Read-me/Responsive-img.jpg"></h2>
+
+![GitHub contributors](https://img.shields.io/github/contributors/Erikas-Ramanauskas/Milestone-Project-1) ![GitHub last commit](https://img.shields.io/github/last-commit/Erikas-Ramanauskas/Milestone-Project-1)![Languages](https://img.shields.io/github/languages/count/Erikas-Ramanauskas/Milestone-Project-1) ![GitHub forks](https://img.shields.io/github/forks/Erikas-Ramanauskas/Milestone-Project-1)
 
 ## CONTENTS
 
@@ -42,7 +44,7 @@ This is a website for "Brick by brick" bricklyer company. It is created to be re
   - [Forking the GitHub Repository](#forking-the-github-repository)
   - [Making a Local Clone](#making-a-local-clone)
 - [Credits](#credits)
-  - [Prior to the course](#prior-to-the-course)
+  - [Before the course](#prior-to-the-course)
   - [Code](#code)
   - [Content](#content)
   - [Media](#media)
@@ -52,46 +54,46 @@ This is a website for "Brick by brick" bricklyer company. It is created to be re
 
 - ### Main idea
 
-Brick By Brick is a website for team of bricklayers who specialises in brickwork based around London. The purpose of website is to inform of the services team provides as well as capture potential leads quickly.
+Brick By Brick is a website for a team of bricklayers who specializes in brickwork based around London. The purpose of the website is to inform of the services the team provides as well as capture potential leads quickly.
 
-Goal of each section is to answer main qestions:
+The goal of each section is to answer the main questions:
 
-- Team expirenece
+- Team experience
 - Team vision
 - Past projects
-- What they are able to offer.
+- What they can offer.
 - How to find them and contact them
 
 - ### User stories
 
-- #### First Time Visitor Goals
+- #### First-Time Visitor Goals
 
-1. Understand clearly hat the site is representing and able to offer.
+1. Understand clearly what the site is representing and able to offer.
 2. Quickly find out what the team can offer.
 3. Have multiple clear ways to contact the team.
-4. Accses clear vissable review section
+4. Accses clear visible review section
 
 - #### Returning Visitor Goals
 
-1. I want to find out were are their based and visit their showroom
-2. Have easy and clear acsess to get more information about their past projects
+1. I want to find out where are based and visit their showroom
+2. Have easy and clear access to get more information about their past projects
 3. I want to find social media links
 
 - #### Frequent User Goals
 
-- Fequent users would be a contractors who works with developemtns on daily basis and they would be recomending the company to regular clients. Main purpose is to have clear Contact section
+- Frequent users would be a contractor who works with developers on daily basis and they would be recommending the company to regular clients. The main purpose is to have a clear Contact section
 
-1.  Easy acsess to teams perofile and what they did in the past.
+1.  Easy access to the team's profile and what they did in the past.
 2.  Clear contact details and the form to fill in.
-3.  Check up with Brick by Brick owners and have their projects added to a galery.
+3.  Check up with Brick by Brick owners and have their projects added to a gallery.
 
 ## Design
 
 - ### Colour Scheme
 
-- 5 main colours used were created using [Adobe Color](https://color.adobe.com/create/color-wheel).
+- 5 main colors used were created using [Adobe Color](https://color.adobe.com/create/color-wheel).
 
-I used several brick pictures and played diferent shades to get few darker colours that landed me on the fallowing list:
+I used several brick pictures and played different shades to get a few darker colors that landed me on the following list:
 
 ```CSS
 :root {
@@ -105,23 +107,23 @@ I used several brick pictures and played diferent shades to get few darker colou
 
   <h2 align="center"><img src="assets/Images/Read-me/Main-colors.jpg"></h2>
 
-I used variables to allow me in a future to change colours or add dark mode or other themes to the website. The text is made of white colour mostly with added dark shadow were the texts is directly on the picture for better visability.
+I used variables to allow me in the future to change colors or add dark mode or other themes to the website. The text is made of white color mostly with added dark shadow where the text is directly on the picture for better visibility.
 
 - ### Typography
 
-- I used mix of Roboto, Saira and Archivo fonts
+- I used a mix of Roboto, Saira, and Archivo fonts
 
-1.  Roboto is a main font i used for for larger pieces of text. for main section as well as about us section
+1.  Roboto is the main font I used for larger pieces of text. for the main section as well as the about us section
 
 2.  Saira was used for contact details in a navigation bar
 
-3.  Archivo was kept for Navigation links, Contact details and Headers
+3.  Archivo was kept for Navigation links, Contact details, and Headers
 
 - ### Imagery
 
-- Head image is chosen to be a clear indication for what is the company about. It is full screen on every device and only covered by navigation bar and Hero-outer that are also semi transperant. It is also made to be responsive and hide a parts of picture depending on a screen size yet keaping the main part of the picture (Hand with a brick) centered
+- Head image is chosen to be a clear indication of what is the company about. It is full screen on every device and is only covered by the navigation bar and Hero-outer which are also semi-transparent. It is also made to be responsive and hide a part of the picture depending on the screen size yet keeping the main part of the picture (Hand with a brick) centered
 
-- All other Immagery is chosen real projects done by the company to represent realist worksdone.
+- All other Imagery is chosen from real projects done by the company to represent realistic works done.
 
 ## Wireframes
 
@@ -137,36 +139,36 @@ I used variables to allow me in a future to change colours or add dark mode or o
 
 - ### Header / Footer
 
-- All of pages contain same header and footer with navigation links. Apart Home one having extended header. I chose a picture that would not only clearly would represent exacly what the company/website is about but also would have clear brick contrast behind a navigation bar as a client browses to other pages. Additionaly the colours of the picture allowed me to blen it in with bacgroudn and other chosen colours.
+- All pages contain the same header and footer with navigation links. Apart from Home one has an extended header. I chose a picture that would not only clearly represent exactly what the company/website is about but also would have clear brick contrast behind a navigation bar as a client browses to other pages. Additionally, the colors of the picture allowed me to blend them in with the background and other chosen colors.
 
-- Header contains of svg logo that draws it self once the page is open, the title of the the company, navigation bar for all 4 pages and main contact lins: Phone and Email.This was implemented to to have easy accses for the user to all the important links and quick accses to contacting the team for consultation.
+- Header contains svg logo that draws itself once the page is open, the title of the company, navigation bar for all 4 pages, and main contact lins: Phone and Email. This was implemented to have easy access for the user to all the important links and quick access to contacting the team for a consultation.
 
-- Footer contains animation responsive 4 social media links for a visitor to visit if they wish to check social media of Brick by Brick.
+- Footer contains animation responsive 4 social media links for visitors to visit if they wish to check the social media of Brick by Brick.
 
 - ### Home page
 
-- Home page header picture is extended 100% screen size height and containing additional hero outer with quick catchy summary of what the company does with clear call to action button to fill in the form by the visitor.
+- The home page header picture is extended by 100% screen size height and contains an additional hero outer with a quick catchy summary of what the company does with a clear call to action button to fill in the form by the visitor.
 
-- The main section consist of 4 parts. Three parts briefly explaining what is a company about, what services do they offer and the last one is customer review carousel for visitors to view recomendations. I have alternated a background colours for each part to make them stand out from each other.
+- The main section consists of 4 parts. The three parts briefly explain what is a company about, and what services they offer and the last one is a customer review carousel for visitors to view recommendations. I have alternated background colors for each part to make them stand out from each other.
 
 - ### About us page
 
-- About us page consist of 2 parts. One is an explanation about general Brick by Brick team and the second is individual member profiles. Each profile is made in to a card with picture at the top and text below.
+- About us page consists of 2 parts. One is an explanation about the general Brick by Brick team and the second is individual member profiles. Each profile is made into a card with the picture at the top and text below.
 
 - ### Galery page
 
-- Galery is consisting of responsive picture layout of Companies works. It is designed with intent that with smaller screen sizes less of pictures are added per row and more pictures when screen sizes gets bigger.
+- Gallery is consisting of a responsive picture layout of the Company's works. It is designed with the intent that with smaller screen sizes less of pictures are added per row and more pictures are when screen sizes get bigger.
 
-- Additionaly user can scrol their mouse on each picture to have animation reveling the general lociation and the project done for that particular picture.For phones and tables this is done with a click on the picture
+- Additionally, user can scroll their mouse on each picture to have animation revealing the general location and the project done for that particular picture. For phones and tablets, this is done with a click on the picture
 
 - ### Contact page
 
-- contact page is designed for people who ould like to get a quotation or directly contact the company them selves.
-- With first section at the row having main ways to contact or visit including email, phone, and adress. For people who ould like to copy/paste the contact detail i left those unclickable, however the titles (Phone, Email, Lociation) are made with links and hover animation to allow both functionalities in a same section.
+- contact page is designed for people who would like to get a quotation or directly contact the company themselves.
+- With the first section of the row has the main ways to contact or visit including email, phone, and address. For people who would like to copy/paste the contact detail, I left those unclickable, however, the titles (Phone, Email, Location) are made with links and hover animation to allow both functionalities in the same section.
 
-- Additional form is added as a second section for those who might have missed in a home page with same functionality just in a different colours and hover effects.
+- Additional form is added as a second section for those who might have missed a home page with the same functionality just in different colors and hover effects.
 
-- Lastly the google maps is added for people who would be looking to visit showroom
+- Lastly, google maps is added for people who would be looking to visit a showroom
 
 ## Technologies Used
 
@@ -179,7 +181,7 @@ I used variables to allow me in a future to change colours or add dark mode or o
 
 1.  [Bootstrap 5.3:](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 
-- Used Botstrap to add resposivnes to a werbsite and making sure it looks good on all screen sizes.
+- Used Bootstrap to add responses to a website and make sure it looks good on all screen sizes.
 
 2.  [Google Fonts:](https://fonts.google.com/)
 
@@ -187,11 +189,11 @@ I used variables to allow me in a future to change colours or add dark mode or o
 
 3.  [Font Awesome:](https://fontawesome.com/)
 
-- Used to add custom icons to enhance user expirenece and navigation
+- Used to add custom icons to enhance user experience and navigation
 
 5.  [Visual Studio Code](https://code.visualstudio.com/)
 
-- For mijority of programing and version control
+- For the majority of programming and version control
 
 7.  [Git](https://git-scm.com/)
 
@@ -199,7 +201,7 @@ I used variables to allow me in a future to change colours or add dark mode or o
 
 8.  [GitHub:](https://github.com/)
 
-- Used to store and publish the project to web
+- Used to store and publish the project to a web
 
 9.  [Figma:](https://www.figma.com/)
 
@@ -212,9 +214,9 @@ I used variables to allow me in a future to change colours or add dark mode or o
 - [W3C Markup Validator](https://validator.w3.org/) - [Results](https://github.com/)
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](https://github.com/)
 
-- Additionaly tested the website on chrome lighthouse to ensure that 4 categories: Performance, Accessibility, Best practices and SEO are to highest Standarts.
+- Additionally tested the website on chrome lighthouse to ensure that 4 categories: Performance, Accessibility, Best practices, and SEO are to the highest standards.
 
-Test were done for all 4 pages using mobile set up:
+The test was done for all 4 pages using the mobile setup:
 
 1.  Home page:
 <h2 align="center"><img src="assets/Images/Read-me/Home-Lighthouse-test.jpg"></h2>
@@ -232,39 +234,39 @@ Test were done for all 4 pages using mobile set up:
 
 ### Further Testing
 
-- The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge, Firefox and Safari browsers on multiple computers.
+- The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge, Firefox, and Safari browsers on multiple computers.
 
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 12, iPhone 14 ProMax & Sony Xperia 5
 
-- All the links were tested multiple times duiring the coading and final testign once project is completed. All navigation links open up within same window. All external links opens a new window (Including: Contact details in the navigation nar and on the contact page, as well as social media links)
+- All the links were tested multiple times during the coding and final testing once a project is completed. All navigation links open up within the same window. All external links open a new window (Including Contact details in the navigation bar and on the contact page, as well as social media links)
 
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Solved Bugs
 
-1.  Navigation bar would go out of screen when testign on the smaller devices when i introduced phone and email in to it. The workaround is that i split both navigation meniu and contacts in to separate unordered lists as child elements of biger unordered list. Thsi ay i managed to place these groups in 2 lines when smaller screens are introduced (tablets and such) and once it goes to even smaller screen everythign woudl go to hamburger.
+1.  Navigation bar would go out of the screen when testing on the smaller devices when I introduced phone and email into it. The workaround is that I split both navigation menus and contacts into separate unordered lists as child elements of the bigger unordered list. This way I managed to place these groups in 2 lines when smaller screens are introduced (tablets and such) and once it goes to an even smaller screen everything would go to hamburger.
 
-2.  solving first problem i coused a bug that made navigation bar hamburger on small screens to be opened once you first load the pages. This was solved by adding back "collapse" class next to "navbar-collapse"
+2.  solving the first problem caused a bug that made the navigation bar hamburger on small screens to be opened once you first load the pages. This was solved by adding back the "collapse" class next to "navbar-collapse"
 
-3.  There were multiple issues with screen sizes for all of main sections during the begining of coding. It took me some research and rewaching code institute lesons to learn proper use of "col" and "row" classes with inserted diferent breakpoints. Easiest was the galery as all control were done in "Row" class, unlike main page i controled responsivnes by manipulating "col" class
+3.  There were multiple issues with screen sizes for all of the main sections during the beginning of coding. It took me some research and rewatching code institute lessons to learn the proper use of "col" and "row" classes with inserted different breakpoints. The easiest was the gallery as all control was done in the "Row" class, unlike the main page I controlled responsiveness by manipulating the "col" class
 
-4.  Main page carousel Desription were overlaping on the smaller screen sizes, I have reduced a font for smaller screen size and hiden part of the text by leaving Main title and reference.
+4.  Main page carousel Descriptions were overlapped on the smaller screen sizes, I have reduced the font for smaller screen sizes and hidden parts of the text by leaving the Main title and reference.
 
-5.  With a form i have made a mistake by not puting "name" tag and it was not capturintg data corectly missing on email and full name.
+5.  With a form I made a mistake by not putting a "name" tag and it was not capturing data correctly missing an email and full name.
 
-6.  One of the bugs i recieved help with from my mentor that i was pathing my immages wrong using CSS backgroudn immage property and not adding .. to return to images folder since the CSS file was placed in a different folder compared to html. This coused hero image not beign visable.
+6.  One of the bugs I received help with from my mentor was that I was pathing my images wrong using CSS background-image property and not adding .. to return to the images folder since the CSS file was placed in a different folder compared to HTML. This caused the hero image not to be visible.
 
 ### Known Bugs
 
-- Galery section: when hovering mouse over or clicking with touchpad during animation for a spit second botom part of the picture corners loses radius around. This is due to another div apearing on top and slidign from the botom that later aling with main div. Anyone i tested out and asked even to look for the issue did not notice this. Yet i could not find a soliution around it apart simply removing border radious entirely.
+- Gallery section: when hovering the mouse over or clicking with the touchpad during the animation for a split second bottom part of the picture corners loses radius around. This is due to another div appearing on top and sliding from the bottom that later aligns with the main div. Anyone I tested out and asked even to look for the issue did not notice this. Yet I could not find a solution around it apart from simply removing the border-radius entirely.
 
 ## Posible Improvements
 
-- Main page carousel buttons are hard to adjust, which i would like to make them thicker. In a future ith enough knoweladge i would make a carousel that i have a bit more control over.
+- Main page carousel buttons are hard to adjust, so I would like to make them thicker. In the future with enough knowledge I would make a carousel that I have a bit more control over.
 
-- I would like galery pictures to be click-able to expand full size or around 90% and being able to flick though as a carousel.
+- I would like gallery pictures to be clickable to expand full size or around 90% and be able to flick through as a carousel.
 
-- Additionaly "Blog" section could be added to add customer user stories with before and after pictures.
+- Additionally "Blog" section could be added to add custom user stories with before and after pictures.
 
 ## Deployment
 
@@ -273,21 +275,21 @@ Test were done for all 4 pages using mobile set up:
 The project was deployed to GitHub Pages using the following steps...
 
 1.  Log in to GitHub and locate the [GitHub Repository](https://github.com/Erikas-Ramanauskas/Milestone-Project-1)
-2.  At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+2.  At the top of the Repository (not the top of the page), locate the "Settings" Button on the menu.
 
-- Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+- Alternatively, Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 
 3.  Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4.  Under "Source", click the dropdown called "None" and select "Master Branch".
 5.  The page will automatically refresh.
-6.  Scroll back down through the page to locate the now published site [link](https://erikas-ramanauskas.github.io/Milestone-Project-1/) in the "GitHub Pages" section.
+6.  Scroll back down through the page to locate the now-published site [link](https://erikas-ramanauskas.github.io/Milestone-Project-1/) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
 1.  Log in to GitHub and locate the [GitHub Repository](https://github.com/Erikas-Ramanauskas/Milestone-Project-1)
-2.  At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+2.  At the top of the Repository (not the top of the page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3.  You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
@@ -310,7 +312,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > Cloning into `CI-Clone`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
+> remote: Total 10 (delta 1), reused 10 (delta 1)
 > Unpacking objects: 100% (10/10), done.
 ```
 
@@ -318,9 +320,9 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Credits
 
-### Prior to the course
+### Before the course
 
-- Prior to the course i was self learning HTML, CSS and Javascript from multiple sources thus i had some basic knoweladge and references to different websites or sources for a different ideas for the project that i will mention below.
+- Before the course, I was self-learning HTML, CSS, and Javascript from multiple sources thus I had some basic knowledge and references to different websites or sources for different ideas for the project that I will mention below.
 
 ### Code
 
@@ -328,25 +330,25 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 - [Bootstrap4](https://getbootstrap.com/docs/5.3/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
-- With bootstrap a lot of help came from [Web Dev Simplified](https://www.youtube.com/watch?v=Jyvffr3aCp0&t=870s) chanel and this particular video. I also have to give credit to multiple ideas and HTML and CSS code details or ideas that came from this chanel spread out though multiple videos.
+- With bootstrap, a lot of help came from [Web Dev Simplified](https://www.youtube.com/watch?v=Jyvffr3aCp0&t=870s) channel and this particular video. I also have to give credit to multiple ideas and HTML and CSS code details or ideas that came from this channel spread out through multiple videos.
 
-- Another youtube content creator [Kevin Powell](https://www.youtube.com/@KevinPowell) helped me with a lot of concepts when it came to using CSS, specificaly "var()" for a colour cheme, "rem" for measurments, "calc()" and many more.
+- Another youtube content creator [Kevin Powell](https://www.youtube.com/@KevinPowell) helped me with a lot of concepts when it came to using CSS, specifically "var()" for a color scheme, "rem" for measurements, "calc()" and many more.
 
-- Multiple references to the code and adjustmens during research on improvements or bug fixes were found on [W3 Schools](https://www.w3schools.com/) as well as [MDN website](https://developer.mozilla.org/en-US/)
+- Multiple references to the code and adjustments during research on improvements or bug fixes were found on [W3 Schools](https://www.w3schools.com/) as well as [MDN website](https://developer.mozilla.org/en-US/)
 
-- SVG logo drawing was made learning from [Jakob Jenkov](https://www.youtube.com/watch?v=k6TWzfLGAKo&t=243s) and the animation pathing was done by learnign [this tutorial](https://www.cassie.codes/posts/creating-my-logo-animation/)
+- SVG logo drawing was made learning from [Jakob Jenkov](https://www.youtube.com/watch?v=k6TWzfLGAKo&t=243s) and the animation pathing was done by learning [this tutorial](https://www.cassie.codes/posts/creating-my-logo-animation/)
 
-- Galery card hover effect ide insipered by [This video](https://www.youtube.com/watch?v=E2TW4ZxXrsI&t=683s). and vith combination of [MDN Transition](https://developer.mozilla.org/en-US/docs/Web/CSS/transition) i worked out what i anted to do with my card design.
+- Gallery card hover effect ide inspired by [This video](https://www.youtube.com/watch?v=E2TW4ZxXrsI&t=683s). and with a combination of [MDN Transition](https://developer.mozilla.org/en-US/docs/Web/CSS/transition) I worked out what I wanted to do with my card design.
 
-- Google maps was a simple copy paste code from [Google maps](https://www.google.com/maps) website by searching for address then having option to press buton "Share", which led to "Embed a map" were the code is found and coudl be copy pasted
+- Google maps was a simple copy-paste code from [Google maps](https://www.google.com/maps) website by searching for an address and then having the option to press the button "Share", which led to "Embed a map" where the code is found and could be copied pasted
 
-- Responsivnes for Google maps Iframe was solved using [5 Ways To Add Responsive Google Maps To Your Website](https://blog.duda.co/responsive-google-maps-for-your-website) blog.
+- Responsive for Google maps Iframe was solved using [5 Ways To Add Responsive Google Maps To Your Website](https://blog.duda.co/responsive-google-maps-for-your-website) blog.
 
 - Hamburger button effect was made using [This video](https://www.youtube.com/watch?v=vJ85fm4m7lw).
 
-- Navigation link hover effect idea come from [This video](https://www.youtube.com/watch?v=aswRKAjjWuE)
+- Navigation-link hover effect idea comes from [This video](https://www.youtube.com/watch?v=aswRKAjjWuE)
 
-- Svg colour change from carousel adjustment I found [on this blog](https://css-tricks.com/almanac/properties/f/filter/)
+- Svg color change from carousel adjustment I found [on this blog](https://css-tricks.com/almanac/properties/f/filter/)
 
 ### Content
 
@@ -354,7 +356,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 
-- All Images apart from hero immage were created by developers friend with full authority rights given to developer.
+- All Images apart from the hero image were created by the developer's friend with full authority rights given to the developer.
 
 ### Acknowledgements
 
