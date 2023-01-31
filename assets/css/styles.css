@@ -25,11 +25,6 @@ main {
   overflow-x: hidden;
 }
 
-/* modify teaxtera */
-
-#floatingTextarea {
-  height: 130px;
-}
 
 body {
   background-color: var(--shade-color);
@@ -264,6 +259,10 @@ li {
 .form-1-style:focus {
   background-color: var(--third-color);
   color: #fff;
+}
+
+#floatingTextarea {
+  height: 130px;
 }
 
 .btn-close-modal,
