@@ -518,13 +518,13 @@ footer {
 
 /* -------------------------------------------------------- */
 
-/* Galery adjustments */
+/* Gallery adjustments */
 
-.galery-images-list {
+.gallery-images-list {
   margin-bottom: 1.5rem;
 }
 
-.galery-image {
+.gallery-image {
   width: 100%;
   max-height: 300px;
   object-fit: cover;
