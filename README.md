@@ -6,7 +6,7 @@ This is a website for the "Brick by brick" bricklayer company. It is created to 
 
 <h2 align="center"><img src="assets/Images/Read-me/Responsive-img.jpg"></h2>
 
-![GitHub contributors](https://img.shields.io/github/contributors/Erikas-Ramanauskas/Milestone-Project-1) ![GitHub last commit](https://img.shields.io/github/last-commit/Erikas-Ramanauskas/Milestone-Project-1)![Languages](https://img.shields.io/github/languages/count/Erikas-Ramanauskas/Milestone-Project-1) ![GitHub forks](https://img.shields.io/github/forks/Erikas-Ramanauskas/Milestone-Project-1)
+![GitHub contributors](https://img.shields.io/github/contributors/Erikas-Ramanauskas/Milestone-Project-1) ![GitHub last commit](https://img.shields.io/github/last-commit/Erikas-Ramanauskas/Milestone-Project-1) ![Languages](https://img.shields.io/github/languages/count/Erikas-Ramanauskas/Milestone-Project-1) ![GitHub forks](https://img.shields.io/github/forks/Erikas-Ramanauskas/Milestone-Project-1)
 
 ## CONTENTS
 
@@ -22,11 +22,10 @@ This is a website for the "Brick by brick" bricklayer company. It is created to 
   - [Colour Scheme](#colour-scheme)
   - [Typography](#typography)
   - [Imagery](#imagery)
-  - [Tables](#tables)
   - [Imagery](#imagery)
 - [Wireframes](#wireframes)
 - [Features](#features)
-  - [Header / Footer](#header-/-footer)
+  - [Header / Footer](#header-&-footer)
   - [Home page](#home-page)
   - [About us page](#about-us-page)
   - [Galery page](#galery-page)
@@ -44,13 +43,13 @@ This is a website for the "Brick by brick" bricklayer company. It is created to 
   - [Forking the GitHub Repository](#forking-the-github-repository)
   - [Making a Local Clone](#making-a-local-clone)
 - [Credits](#credits)
-  - [Before the course](#prior-to-the-course)
+  - [Before the course](#before-the-course)
   - [Code](#code)
   - [Content](#content)
   - [Media](#media)
   - [Acknowledgements](#acknowledgements)
 
-## User Experience (UX)
+## User Experience
 
 - ### Main idea
 
@@ -127,9 +126,9 @@ I used variables to allow me in the future to change colors or add dark mode or 
 
 ## Wireframes
 
-- Home Page mobile - [View](assets/Images/Read-me/Iphone-2012.png)
+- Home Page mobile - [View](assets/Images/Read-me/Iphone-12.png)
 
-- Home Page tablet - [View](assets/Images/Read-me/Ipad-20air.png.png)
+- Home Page tablet - [View](assets/Images/Read-me/Ipad-air.png)
 
 - Home Page desktop - [View](assets/Images/Read-me/21-inch-screen.png)
 
@@ -137,7 +136,7 @@ I used variables to allow me in the future to change colors or add dark mode or 
 
 - The website is combined of 4 pages: Home, About us, Galery and Contact us pages.
 
-- ### Header / Footer
+- ### Header & Footer
 
 - All pages contain the same header and footer with navigation links. Apart from Home one has an extended header. I chose a picture that would not only clearly represent exactly what the company/website is about but also would have clear brick contrast behind a navigation bar as a client browses to other pages. Additionally, the colors of the picture allowed me to blend them in with the background and other chosen colors.
 
